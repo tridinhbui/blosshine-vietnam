@@ -9,6 +9,7 @@ html {
 
 
 .parts {
+    min-width: 1200px;
     width: 100%;
     padding-bottom: 150px;
     padding-top: 15px;
@@ -182,7 +183,7 @@ html {
     background-color: rgba(236, 196, 76, 1);
     position: fixed;
     top: 0;
-    z-index: 9;     
+    z-index: 200;     
     box-shadow: 0 1px 25px rgba(0,0,0, .1);   
     transition: .7s; 
 }
@@ -252,7 +253,7 @@ html {
 
 
 #intro {
-    width: 450px;
+    /* width: 450px; */
     height: 200px;
     font-size: 1.25em;
     line-height: 1.75;
