@@ -1,6 +1,5 @@
 html, body {
     width:100%;
-    height: 5000px;
 }
 
 html {
@@ -9,7 +8,6 @@ html {
 
 
 .parts {
-    min-width: 1200px;
     width: 100%;
     padding-bottom: 150px;
     padding-top: 15px;
@@ -47,12 +45,6 @@ html {
 
 /* _____________________________ */
 
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
 #go-to-top-btn {
     display: none; 
@@ -121,13 +113,12 @@ html {
 
 #box {
     width: 100%;
-    height: 5000px;
 }
 
 
 /* Dropdown Button */
 .dropbtn {
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     background-color: rgba(236, 196, 76, 1);
   }
@@ -265,8 +256,9 @@ html {
 /* ___________________________________________________________________________________________ */
 
 #parallax-container {
+    width: 100%;
     display: block;
-    height: 768px; 
+    height: 100vh; 
  }
  
 #parallax-container div {
@@ -274,7 +266,7 @@ html {
     top: 0;
     background-position: center !important;
     transform: translateY(0px);
-    height: 768px;
+    height: 100vh;
     width: 100%;
     z-index: -1;
 }
@@ -320,7 +312,7 @@ html {
 }
 
 #imageCover-1 {
-    height: 768px;
+    height: 100vh;
     overflow: hidden;
     margin-top: 50px;
     margin-left: 70px;
@@ -331,7 +323,7 @@ html {
 
 
 #ex-1 {
-    height: 100%;
+    height: 100vh;
     background-image: url(https://cdn.pixabay.com/photo/2012/12/24/08/39/face-72194_1280.jpg);
     background-size: cover;
     transition: 1.5s;
@@ -369,13 +361,13 @@ html {
 
 #background {
     background-color: rgb(232, 232, 232);
-    height: 6320px;
+    width: 100%;
     /* padding-top: 50px; */
 }
 
 
 #imageCover-2 {
-    height: 768px;
+    height: 100vh;
     overflow: hidden;
     margin-top: 50px;
     margin-left: 70px;
@@ -391,7 +383,7 @@ html {
 
 
 #ex-2 {
-    height: 100%;
+    height: 100vh;
     background-image: url(https://i.imgur.com/igJhNlZ.png);
     background-size: cover;
     transition: 1.5s;
@@ -444,7 +436,7 @@ html {
 
 
 #imageCover-3 {
-    height: 768px;
+    height: 100vh;
     overflow: hidden;
     margin-top: 50px;
     margin-left: 70px;
@@ -456,7 +448,7 @@ html {
 
 
 #ex-3 {
-    height: 100%;
+    height: 100vh;
     background-image: url(https://i.imgur.com/4d25wzR.png);
     background-size: cover;
     transition: 1.5s;
@@ -519,8 +511,8 @@ html {
 
 .vid-border{
     position: relative;
-    height: 480px;
-    width: 854px;
+    height: 62vh;
+    width: 111vh;
     border: 3px solid black;
     overflow: hidden;
     border-radius: 30px;
@@ -528,7 +520,7 @@ html {
 
 
 #sub-activities {
-    height: 450px;
+    height: 58vh;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -536,8 +528,8 @@ html {
 
 
 .activities-container {
-    height: 344px;
-    width: 344px;
+    height: 40vh;
+    width: 40vh;
     overflow: hidden;
     border: 3px solid black;
 }
@@ -546,8 +538,8 @@ html {
 #activities-1 {
     background-image: url(https://images.wallpaperscraft.com/image/plant_leaves_green_123729_1920x1080.jpg);
     background-size: cover;
-    height: 344px;
-    width: 344px;
+    height: 40vh;
+    width: 40vh;
     transition: 1.2s;
 }
 
@@ -561,8 +553,8 @@ html {
 #activities-2 {
     background-image: url(https://i.imgur.com/eS7iCtB.jpg);
     background-size: cover;
-    height: 344px;
-    width: 344px;
+    height: 40vh;
+    width: 40vh;
     transition: 1.2s;
 }
 
@@ -576,8 +568,8 @@ html {
 #activities-3 {
     background-image: url(https://i.imgur.com/FWGW4wW.png);
     background-size: cover;
-    height: 344px;
-    width: 344px;
+    height: 40vh;
+    width: 40vh;
     transition: 1.2s;
 }
 
@@ -600,7 +592,6 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 412px;
 }
 
 .text-container {
@@ -822,13 +813,13 @@ html {
 #background-2 {
     display: flex;
     width: 100%;
-    height: 450px;
+    height: 50vh;
     background-color: rgba(236, 196, 76, 1);
 }
 
 
 .footer-div {
-    height: 300px;
+    height: 33vh;
     margin-top: 150px;
 }
 
@@ -858,7 +849,7 @@ html {
 
 
 #background-3 {
-    height: 550px;
+    height: 70vh;
     width: 100%;
     background-color: rgba(236, 196, 76, 1);
     display: flex;
@@ -870,21 +861,21 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 80%;
 }
 
 #footer-sm-logo-box {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 200px;
+    height: 20%;
     padding-top: 30px;
 }
 
 #footer-bls-logo {
     margin-top: 100px;
-    width: 300px;
-    height: 300px;
+    width: 40vh;
+    height: 40vh;
 }
 
 #fb-logo-box {
@@ -958,3 +949,12 @@ ul.social-network li {
     transition: all 0.8s;
     background-color: black;
 }
+
+
+
+
+
+
+
+
+
