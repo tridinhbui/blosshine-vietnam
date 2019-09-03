@@ -1,6 +1,7 @@
 html, body {
-    width:100%;
-    height: 2000px;
+    width: 100%;
+    height: 200vh;
+    background-color: black;
 }
 
 html {
@@ -39,17 +40,17 @@ html {
 
 
 .a-tag {
-    color: black;
+    color: white;
 }
 
 
 .a-tag:hover {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .a-tag {
-    color: black;
+    color: white;
     text-decoration: none;   
     display: inline-block;
     position: relative;
@@ -72,6 +73,10 @@ html {
     left: 0; 
 }
 
+#about {
+    color: white;
+}
+
 
 /* _______________________________________________________________________________ */
 
@@ -80,7 +85,7 @@ html {
 .dropbtn {
     font-size: 16px;
     border: none;
-    background-color: rgba(236, 196, 76, 1);
+    background-color: black;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -93,7 +98,7 @@ html {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(236, 196, 76, 1);
+    background-color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -104,7 +109,7 @@ html {
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -112,7 +117,7 @@ html {
 
   .dropdown-content a:hover {
       text-decoration: none;
-      color: black;
+      color: white;
       opacity: 0.5;
       transition: .7s;
   }
@@ -131,7 +136,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(236, 196, 76, 1);
+    background-color: #0B0B0B;
     position: fixed;
     top: 0;
     z-index: 9;     
@@ -157,7 +162,7 @@ html {
 }
 
 #projectName {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 40px;
     font-family: 'Indie Flower', cursive;
@@ -175,3 +180,120 @@ html {
 
 /* ____________________________________________________________________________________________ */
 
+#pre-gif {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/f0/df/fd/f0dffdcf873936786b4ee8b518521a5a.jpg);
+    background-size: cover;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+  text-decoration: none;
+  color: white;
+}
+
+
+#section05 a {
+  padding-top: 70px;
+}
+#section05 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+
+
+/* _______________________________________________________________________________________________ */
+#gif-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.giphy.com/media/O1A7W9ipgqOpq/giphy.gif);
+    background-size: cover;    
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#img-1, #img-2, #img-3, #img-4 {
+    height: 50%;
+}
