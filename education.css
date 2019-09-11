@@ -297,3 +297,194 @@ section::after {
 #img-1, #img-2, #img-3, #img-4 {
     height: 50%;
 }
+
+#img-1 {
+  background-image: url(https://images.wallpaperscraft.com/image/plant_leaves_green_123729_1920x1080.jpg);
+  background-size: cover;
+  opacity: 0;
+  transition: 3s;
+}
+
+#img-1:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+
+#img-2 {
+  background-image: url(https://images.wallpaperscraft.com/image/plant_leaves_green_123729_1920x1080.jpg);
+  background-size: cover;
+  opacity: 0;
+  transition: 3s;
+}
+
+#img-2:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+
+#img-3 {
+  background-image: url(https://images.wallpaperscraft.com/image/plant_leaves_green_123729_1920x1080.jpg);
+  background-size: cover;
+  opacity: 0;
+  transition: 3s;
+}
+
+#img-3:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+
+
+#img-4 {
+  background-image: url(https://images.wallpaperscraft.com/image/plant_leaves_green_123729_1920x1080.jpg);
+  background-size: cover;
+  opacity: 0;
+  transition: 3s;
+}
+
+#img-4:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+#background-2 {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(236, 196, 76, 1);
+}
+
+
+.footer-div {
+  height: 33vh;
+  margin-top: 150px;
+}
+
+
+#fd-5 {
+  width:400px;
+  margin-right: 70px;
+}
+
+
+#fd-1 {
+  width: 185px;
+  margin-left: 70px;
+}
+
+#fd-2 {
+  width: 185px;
+}
+
+#fd-3 {
+  width: 185px;
+}
+
+#fd-4 {
+  width: 185px;
+}
+
+
+#background-3 {
+  height: 70vh;
+  width: 100%;
+  background-color: rgba(236, 196, 76, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+
+#footer-logo-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}
+
+#footer-sm-logo-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  padding-top: 30px;
+}
+
+#footer-bls-logo {
+  margin-top: 100px;
+  width: 40vh;
+  height: 40vh;
+}
+
+#fb-logo-box {
+  margin-left: 490px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+ul.social-network {
+list-style: none;
+display: inline;
+margin-left:0;
+padding: 0;
+}
+ul.social-network li {
+display: inline;
+margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+background-color:#3B5998;
+}
+
+.social-network a.icoInstagram:hover {
+background-color: rgb(195, 42, 163);
+}
+
+.socialIcon:hover, .socialHoverClass {
+color:#44BCDD;
+}
+
+.social-circle li a {
+display:inline-block;
+position:relative;
+margin:0 auto 0 auto;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+border-radius:50%;
+text-align:center;
+width: 50px;
+height: 50px;
+font-size:20px;
+background-color: black;
+}
+
+.social-circle li i {
+margin:0;
+line-height:50px;
+text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-ms--transform: rotate(360deg);
+transform: rotate(360deg);
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+-o-transition: all 0.2s;
+-ms-transition: all 0.2s;
+transition: all 0.7s;
+}
+
+.social-circle i {
+color: #fff;
+-webkit-transition: all 0.8s;
+-moz-transition: all 0.8s;
+-o-transition: all 0.8s;
+-ms-transition: all 0.8s;
+  transition: all 0.8s;
+}

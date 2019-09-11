@@ -35,7 +35,7 @@
   };
 
   var toggleHeader = function (direction, curScroll) {
-    if (direction === 2 && curScroll > 50) {
+    if (direction === 2 && curScroll > 0) {
       header.classList.add('hide');
       prevDirection = direction;
     }
