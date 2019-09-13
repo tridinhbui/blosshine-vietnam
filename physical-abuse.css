@@ -1,3 +1,14 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #027f7c; 
+  border-radius: 2em;
+}
+
 /* The Overlay (background) */
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */  
@@ -13,8 +24,8 @@
     background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 2.25%;
+    padding-right: 2.25%;
     align-items: center;
   }
   
@@ -31,9 +42,9 @@
     text-decoration: none;
     color: white;
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+    top: 0px;
+    right: 3px;
+    font-size: 50px;
   }
   
   
@@ -74,6 +85,9 @@
     margin-top: 2.5%;
     background-color: rgba(236, 196, 76, 1);
     border-radius: 2em;
+    padding: 5%;
+    font-family: 'Chilanka', cursive;
+    font-size: 1.25rem;
 }
 
 #pa-3 {
@@ -82,4 +96,8 @@
     background-color: rgba(236, 196, 76, 1);
     border-radius: 2em;
     margin-left: 1.5%;
+    padding: 2.5%;
+    font-family: 'Chilanka', cursive;
+    font-size: 1.25rem;
+    overflow: auto;
 }
