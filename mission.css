@@ -1,24 +1,23 @@
 html, body  {
     width: 100%;
-    height: 2000px;
+    height: 100%;
 }
 
 
 #box {
     display: flex;
     width: 100%;
-    height: 1180px;
+    height: 125vh;
     background-color: rgb(232, 232, 232);
 }
 
 
 #main-content {
     width: 100%;
-    height: 1180px;
+    height: 100vh;
     padding-top: 230px;
     padding-left: 70px;
     padding-right: 70px;
-    padding-bottom: 170px;
     display: flex;
 }
 

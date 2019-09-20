@@ -164,18 +164,18 @@ html {
 #projectName {
     color: white;
     text-decoration: none;
-    font-size: 40px;
-    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+    font-family: 'Vollkorn', serif;
 }
 
 .row-2-1 {
     margin-top: 3px;
     margin-right: 40px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Vollkorn', serif;
 }
 
 #about, #contactUs, #cfs {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* ____________________________________________________________________________________________ */
