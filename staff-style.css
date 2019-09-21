@@ -1,3 +1,25 @@
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgba(236, 196, 76, 1); 
+	border-radius: 2em;
+  }
+
+.SC-container {
+	width: 80%;
+}
+
+#SCC-container {
+	height: 330px;
+	width: 100%;
+	align-items: center;
+	overflow-y: scroll;
+}
+
 .fc-wrapper {
 	width: 300px;
 	height: 300px;
@@ -201,7 +223,7 @@
 /* Content */
 
 .fc-content {
-	width: 200px;
+	width: 300px;
 	padding: 0px;
 	text-align: right;
 	position: relative;

@@ -2,142 +2,811 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mission.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css?family=Bungee|Luckiest+Guy|M+PLUS+1p|Paytone+One|Rammetto+One|Sanchez|Ultra&display=swap"
-        rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Education</title>
+    <meta name="description" content="CSS-only Responsive Layout with Smooth Transitions" />
+    <meta name="keywords"
+        content="css3, transitions, animations, css-only, navigation, smooth scrolling, full width, full height, window width, window height" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat|Dancing+Script:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/about-demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/about-style.css" />
+    <link rel="stylesheet" type="text/css" href="staff-demo.css" />
+    <link rel="stylesheet" type="text/css" href="staff-style.css" />
+    <script type="text/javascript" src="about-js/modernizr.custom.79639.js"></script>
+    <!--[if lte IE 8]>
+			 <link rel="stylesheet" type="text/css" href="about-css/simple.css" />
+        <![endif]-->
+    <!--[if lte IE 10]><link rel="stylesheet" type="text/css" href="staff-fallback.css" /><![endif]-->
+    <!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
 </head>
 
 <body>
+    <div class="container">
 
-    <button onclick="topFunction()" id="go-to-top-btn" title="Go to top">
-        <img id="go-to-top-img"
-            src="https://www.taalvistahotel.com/sites/all/themes/taalvistahotel/images/up-button.png" alt="">
-    </button>
+        <div class="st-container">
 
+            <input type="radio" name="radio-set" checked="checked" id="st-control-1" />
+            <a href="#st-panel-1">Overview</a>
+            <input type="radio" name="radio-set" id="st-control-2" />
+            <a href="#st-panel-2">Mission</a>
+            <input type="radio" name="radio-set" id="st-control-3" />
+            <a href="#st-panel-3">Staff</a>
+            <input type="radio" name="radio-set" id="st-control-4" />
+            <a href="#st-panel-4">FAQs</a>
+            <input type="radio" name="radio-set" id="st-control-5" />
+            <a href="#st-panel-5">Contact</a>
 
-    <div id="box">
-        <div id="header">
-            <div id="row-1">
-                <a href="index.html" id="projectName">Blosshine Project</a>
-            </div>
+            <div class="st-scroll">
 
-            <div id="row-2">
+                <!-- Placeholder text from http://hipsteripsum.me/ -->
 
-                <div class="row-2-1">
-                    <div class="dropdown">
-                        <button class="dropbtn">About</button>
-                        <div class="dropdown-content">
-                            <a href="#">Overview</a>
-                            <a href="#">Mission</a>
-                            <a href="#">Staffs</a>
-                            <a href="#">Partners</a>
-                            <a href="#">FAQs</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row-2-1">
-                    <a class="a-tag" id="contactUs" href="">Contact Us</a>
-                </div>
-
-                <div class="row-2-1">
-                    <a class="a-tag" id="cfs" href="">Blossom Confession</a>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div id="main-content">
-            <div id="mc-0">
-                <p id="our-mission">OUR MISSION</p>
-            </div>
-
-            <div id="mc-1">
-                <div id="mc-1-1">
-                    <p class="main-p">Blosshine is a brand new project aimed at raising the community’s awareness
-                        towards child abuse.</p>
-                    <p class="main-p">The project’s main events include the online photo competition “Children, Pure
+                <section class="st-panel" id="st-panel-1">
+                    <div class="st-deco"></div>
+                    <a class="icon" href="index1.html"><img class="icon" src="https://i.imgur.com/bIpbj7X.png"
+                            alt=""></a>
+                    <h2>Overview</h2>
+                    <p>The project’s main events include the online photo competition “Children, Pure
                         Blossoms” (August 2018), “Child Abuse Prevention” talk (September 2018) and “Charity Day” at a
                         yet-to-be-specified orphanage.</p>
-                    <p class="main-p">Through these events, Blosshine aims to:</p>
-                    <p class="main-p">+ Equip primary school students with means of self-defence methods against abuse.
+                    <p>Through these events, Blosshine aims to:</p>
+                    <p>+ Equip primary school students with means of self-defence methods against abuse.
                     </p>
-                    <p class="main-p">+ Spreading the passage of “No More Child Abuse” to the community.</p>
-                    <p class="main-p">+ Make students feel safe at all times.</p>
+                    <p>+ Spreading the passage of “No More Child Abuse” to the community.</p>
+                    <p>+ Make students feel safe at all times.</p>
+                </section>
 
-                </div>
-                <div id="mc-1-2"></div>
-            </div>
+                <section class="st-panel st-color" id="st-panel-2">
+                    <div class="st-deco"></div>
+                    <a class="icon" href="index1.html"><img class="icon" src="https://i.imgur.com/bIpbj7X.png"
+                            alt=""></a>
+                    <h2>Mission</h2>
+                    <p>Art party readymade beard labore cosby sweater culpa. Art party whatever incididunt, scenester
+                        umami polaroid tofu.</p>
+                </section>
+
+                <section
+                    style="display: flex; justify-content: space-around; align-items: center; flex-direction: row; overflow-y: scroll;"
+                    class="st-panel" id="st-panel-3">
+                    <div class="st-deco"></div>
+                    <a style="justify-content: center;" class="icon" href="index1.html"><img class="icon"
+                            src="https://i.imgur.com/bIpbj7X.png" alt=""></a>
+                    <h2>Staff</h2>
 
 
-            <div id="mc-2">
-                <img id="img-1" src="https://i.imgur.com/MoFcaOE.png" alt="">
-            </div>
-        </div>
+                    <div id="SCC-container" style="display: flex; flex-direction: column;">
+                    <div style="display: flex; justify-content: space-around" class="SC-container">
+                    <div class="staff-container">
+
+                        <section class="main">
+                            <div class="click"></div>
+                            <div id="fc-wrapper-1" class="fc-wrapper">
+
+                                <!-- right-most handle piece -->
+                                <div class="fc-handle fc-handle-pull"></div>
+
+                                <div class="fc-perspective">
+
+                                    <!-- right part overlay; get's darker -->
+                                    <div class="fc-overlay fc-overlay-reverse"></div>
+
+                                    <!-- middle handle piece -->
+                                    <div class="fc-handle fc-handle-out">
+                                        <div></div>
+                                    </div>
+
+                                    <!-- inner bottom content part -->
+                                    <div class="fc-bottom">
+                                        <div class="fc-bottom-bg">
+                                            <div class="fc-content">
+                                                <p><span>BUI DINH TRI</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="fc-overlay fc-overlay-solid"></div>
+                                    </div><!-- //fc-bottom -->
+
+                                    <!-- front and back of the flipping half -->
+                                    <div class="fc-flip">
+
+                                        <div class="fc-front">
+
+                                            <div class="fc-inner">
+
+                                                <div class="fc-overlay fc-overlay-left"></div>
+                                                <!-- left-most part of handle -->
+                                                <div class="fc-handle fc-handle-in">
+                                                    <div></div>
+                                                </div>
+
+                                                <div class="fc-content">
+                                                    <h3><span></span>Founder</h3>
+                                                    <p style="margin-top:45px;">Blosshine project</p>
+                                                </div>
+
+                                            </div>
+
+                                        </div><!-- //fc-front -->
+
+                                        <div class="fc-back">
+
+                                            <div class="fc-inner">
+
+                                                <div class="fc-content">
+                                                    <div class="feynman">
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="fc-overlay fc-overlay-right"></div>
+
+
+                                            </div>
+
+                                        </div><!-- //fc-back -->
+
+                                    </div><!-- //fc-flip -->
+
+                                </div><!-- //fc-perspective -->
+
+                            </div><!-- //fc-wrapper -->
+
+                        </section>
+
+                    </div>
+                    <script type="text/javascript"
+                        src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+                    <script type="text/javascript" src="js/staff-hammer.js"></script>
+                    <script type="text/javascript" src="js/staff-jquery.hammer.js"></script>
+                    <script type="text/javascript">
+                        $(function () {
+
+                            var $wrapper = $('#fc-wrapper-1'),
+                                $handle = $wrapper.children('div.fc-handle-pull');
+
+                            $handle.on('click', function (event) {
+
+                                ($handle.data('opened')) ? close() : open();
+
+                            });
+
+                            $wrapper.hammer().bind('dragend', function (event) {
+                                switch (event.direction) {
+                                    case 'right': open(); break;
+                                    case 'left': close(); break;
+                                }
+                            });
+
+                            function open() {
+                                $wrapper.addClass('fc-wrapper-open');
+                                $handle.data('opened', true);
+                            }
+
+                            function close() {
+                                $wrapper.removeClass('fc-wrapper-open');
+                                $handle.data('opened', false);
+                            }
+
+                        });
+                    </script>
+
+
+
+
+                    <div class="staff-container">
+
+                        <section class="main">
+                            <div class="click"></div>
+                            <div id="fc-wrapper-2" class="fc-wrapper">
+
+                                <!-- right-most handle piece -->
+                                <div class="fc-handle fc-handle-pull"></div>
+
+                                <div class="fc-perspective">
+
+                                    <!-- right part overlay; get's darker -->
+                                    <div class="fc-overlay fc-overlay-reverse"></div>
+
+                                    <!-- middle handle piece -->
+                                    <div class="fc-handle fc-handle-out">
+                                        <div></div>
+                                    </div>
+
+                                    <!-- inner bottom content part -->
+                                    <div class="fc-bottom">
+                                        <div class="fc-bottom-bg">
+                                            <div class="fc-content">
+                                                <p><span>NGUYEN CANH TUAN</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="fc-overlay fc-overlay-solid"></div>
+                                    </div><!-- //fc-bottom -->
+
+                                    <!-- front and back of the flipping half -->
+                                    <div class="fc-flip">
+
+                                        <div class="fc-front">
+
+                                            <div class="fc-inner">
+
+                                                <div class="fc-overlay fc-overlay-left"></div>
+                                                <!-- left-most part of handle -->
+                                                <div class="fc-handle fc-handle-in">
+                                                    <div></div>
+                                                </div>
+
+                                                <div class="fc-content">
+                                                    <h3 style="margin: 10px 0px 30px 4px;"><span></span>Website Developer</h3>
+                                                    <p style="margin-top:45px;">Blosshine project</p>
+                                                </div>
+
+                                            </div>
+
+                                        </div><!-- //fc-front -->
+
+                                        <div class="fc-back">
+
+                                            <div class="fc-inner">
+
+                                                <div class="fc-content">
+                                                    <div class="feynman">
+                                                        <span></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="fc-overlay fc-overlay-right"></div>
+
+
+                                            </div>
+
+                                        </div><!-- //fc-back -->
+
+                                    </div><!-- //fc-flip -->
+
+                                </div><!-- //fc-perspective -->
+
+                            </div><!-- //fc-wrapper -->
+
+                        </section>
+
+                    </div>
+                    <script type="text/javascript"
+                        src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+                    <script type="text/javascript" src="js/staff-hammer.js"></script>
+                    <script type="text/javascript" src="js/staff-jquery.hammer.js"></script>
+                    <script type="text/javascript">
+                        $(function () {
+
+                            var $wrapper = $('#fc-wrapper-2'),
+                                $handle = $wrapper.children('div.fc-handle-pull');
+
+                            $handle.on('click', function (event) {
+
+                                ($handle.data('opened')) ? close() : open();
+
+                            });
+
+                            $wrapper.hammer().bind('dragend', function (event) {
+                                switch (event.direction) {
+                                    case 'right': open(); break;
+                                    case 'left': close(); break;
+                                }
+                            });
+
+                            function open() {
+                                $wrapper.addClass('fc-wrapper-open');
+                                $handle.data('opened', true);
+                            }
+
+                            function close() {
+                                $wrapper.removeClass('fc-wrapper-open');
+                                $handle.data('opened', false);
+                            }
+
+                        });
+                    </script>
+                    </div>
+                    
+
+
+                    <div style="display: flex; justify-content: space-around; margin-top: 5%; margin-bottom: 5%;" class="SC-container">
+                            <div class="staff-container">
+        
+                                <section class="main">
+                                    <div class="click"></div>
+                                    <div id="fc-wrapper-3" class="fc-wrapper">
+        
+                                        <!-- right-most handle piece -->
+                                        <div class="fc-handle fc-handle-pull"></div>
+        
+                                        <div class="fc-perspective">
+        
+                                            <!-- right part overlay; get's darker -->
+                                            <div class="fc-overlay fc-overlay-reverse"></div>
+        
+                                            <!-- middle handle piece -->
+                                            <div class="fc-handle fc-handle-out">
+                                                <div></div>
+                                            </div>
+        
+                                            <!-- inner bottom content part -->
+                                            <div class="fc-bottom">
+                                                <div class="fc-bottom-bg">
+                                                    <div class="fc-content">
+                                                        <p><span>BUI DINH TRI</span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="fc-overlay fc-overlay-solid"></div>
+                                            </div><!-- //fc-bottom -->
+        
+                                            <!-- front and back of the flipping half -->
+                                            <div class="fc-flip">
+        
+                                                <div class="fc-front">
+        
+                                                    <div class="fc-inner">
+        
+                                                        <div class="fc-overlay fc-overlay-left"></div>
+                                                        <!-- left-most part of handle -->
+                                                        <div class="fc-handle fc-handle-in">
+                                                            <div></div>
+                                                        </div>
+        
+                                                        <div class="fc-content">
+                                                            <h3 style="margin: 10px 0px 30px 5px;"><span></span>Head of PR</h3>
+                                                            <p style="margin-top:45px;">Blosshine project</p>
+                                                        </div>
+        
+                                                    </div>
+        
+                                                </div><!-- //fc-front -->
+        
+                                                <div class="fc-back">
+        
+                                                    <div class="fc-inner">
+        
+                                                        <div class="fc-content">
+                                                            <div class="feynman">
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="fc-overlay fc-overlay-right"></div>
+        
+        
+                                                    </div>
+        
+                                                </div><!-- //fc-back -->
+        
+                                            </div><!-- //fc-flip -->
+        
+                                        </div><!-- //fc-perspective -->
+        
+                                    </div><!-- //fc-wrapper -->
+        
+                                </section>
+        
+                            </div>
+                            <script type="text/javascript"
+                                src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+                            <script type="text/javascript" src="js/staff-hammer.js"></script>
+                            <script type="text/javascript" src="js/staff-jquery.hammer.js"></script>
+                            <script type="text/javascript">
+                                $(function () {
+        
+                                    var $wrapper = $('#fc-wrapper-3'),
+                                        $handle = $wrapper.children('div.fc-handle-pull');
+        
+                                    $handle.on('click', function (event) {
+        
+                                        ($handle.data('opened')) ? close() : open();
+        
+                                    });
+        
+                                    $wrapper.hammer().bind('dragend', function (event) {
+                                        switch (event.direction) {
+                                            case 'right': open(); break;
+                                            case 'left': close(); break;
+                                        }
+                                    });
+        
+                                    function open() {
+                                        $wrapper.addClass('fc-wrapper-open');
+                                        $handle.data('opened', true);
+                                    }
+        
+                                    function close() {
+                                        $wrapper.removeClass('fc-wrapper-open');
+                                        $handle.data('opened', false);
+                                    }
+        
+                                });
+                            </script>
+        
+        
+        
+        
+                            <div class="staff-container">
+        
+                                <section class="main">
+                                    <div class="click"></div>
+                                    <div id="fc-wrapper-4" class="fc-wrapper">
+        
+                                        <!-- right-most handle piece -->
+                                        <div class="fc-handle fc-handle-pull"></div>
+        
+                                        <div class="fc-perspective">
+        
+                                            <!-- right part overlay; get's darker -->
+                                            <div class="fc-overlay fc-overlay-reverse"></div>
+        
+                                            <!-- middle handle piece -->
+                                            <div class="fc-handle fc-handle-out">
+                                                <div></div>
+                                            </div>
+        
+                                            <!-- inner bottom content part -->
+                                            <div class="fc-bottom">
+                                                <div class="fc-bottom-bg">
+                                                    <div class="fc-content">
+                                                        <p><span>BUI DINH TRI</span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="fc-overlay fc-overlay-solid"></div>
+                                            </div><!-- //fc-bottom -->
+        
+                                            <!-- front and back of the flipping half -->
+                                            <div class="fc-flip">
+        
+                                                <div class="fc-front">
+        
+                                                    <div class="fc-inner">
+        
+                                                        <div class="fc-overlay fc-overlay-left"></div>
+                                                        <!-- left-most part of handle -->
+                                                        <div class="fc-handle fc-handle-in">
+                                                            <div></div>
+                                                        </div>
+        
+                                                        <div class="fc-content">
+                                                            <h3><span></span>Founder</h3>
+                                                            <p style="margin-top:45px;">Blosshine project</p>
+                                                        </div>
+        
+                                                    </div>
+        
+                                                </div><!-- //fc-front -->
+        
+                                                <div class="fc-back">
+        
+                                                    <div class="fc-inner">
+        
+                                                        <div class="fc-content">
+                                                            <div class="feynman">
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="fc-overlay fc-overlay-right"></div>
+        
+        
+                                                    </div>
+        
+                                                </div><!-- //fc-back -->
+        
+                                            </div><!-- //fc-flip -->
+        
+                                        </div><!-- //fc-perspective -->
+        
+                                    </div><!-- //fc-wrapper -->
+        
+                                </section>
+        
+                            </div>
+                            <script type="text/javascript"
+                                src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+                            <script type="text/javascript" src="js/staff-hammer.js"></script>
+                            <script type="text/javascript" src="js/staff-jquery.hammer.js"></script>
+                            <script type="text/javascript">
+                                $(function () {
+        
+                                    var $wrapper = $('#fc-wrapper-4'),
+                                        $handle = $wrapper.children('div.fc-handle-pull');
+        
+                                    $handle.on('click', function (event) {
+        
+                                        ($handle.data('opened')) ? close() : open();
+        
+                                    });
+        
+                                    $wrapper.hammer().bind('dragend', function (event) {
+                                        switch (event.direction) {
+                                            case 'right': open(); break;
+                                            case 'left': close(); break;
+                                        }
+                                    });
+        
+                                    function open() {
+                                        $wrapper.addClass('fc-wrapper-open');
+                                        $handle.data('opened', true);
+                                    }
+        
+                                    function close() {
+                                        $wrapper.removeClass('fc-wrapper-open');
+                                        $handle.data('opened', false);
+                                    }
+        
+                                });
+                            </script>
+                            </div>
+
+
+
+                            <div style="display: flex; justify-content: space-around" class="SC-container">
+                                    <div class="staff-container">
+                
+                                        <section class="main">
+                                            <div class="click"></div>
+                                            <div id="fc-wrapper-5" class="fc-wrapper">
+                
+                                                <!-- right-most handle piece -->
+                                                <div class="fc-handle fc-handle-pull"></div>
+                
+                                                <div class="fc-perspective">
+                
+                                                    <!-- right part overlay; get's darker -->
+                                                    <div class="fc-overlay fc-overlay-reverse"></div>
+                
+                                                    <!-- middle handle piece -->
+                                                    <div class="fc-handle fc-handle-out">
+                                                        <div></div>
+                                                    </div>
+                
+                                                    <!-- inner bottom content part -->
+                                                    <div class="fc-bottom">
+                                                        <div class="fc-bottom-bg">
+                                                            <div class="fc-content">
+                                                                <p><span>BUI DINH TRI</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="fc-overlay fc-overlay-solid"></div>
+                                                    </div><!-- //fc-bottom -->
+                
+                                                    <!-- front and back of the flipping half -->
+                                                    <div class="fc-flip">
+                
+                                                        <div class="fc-front">
+                
+                                                            <div class="fc-inner">
+                
+                                                                <div class="fc-overlay fc-overlay-left"></div>
+                                                                <!-- left-most part of handle -->
+                                                                <div class="fc-handle fc-handle-in">
+                                                                    <div></div>
+                                                                </div>
+                
+                                                                <div class="fc-content">
+                                                                    <h3><span></span>Founder</h3>
+                                                                    <p style="margin-top:45px;">Blosshine project</p>
+                                                                </div>
+                
+                                                            </div>
+                
+                                                        </div><!-- //fc-front -->
+                
+                                                        <div class="fc-back">
+                
+                                                            <div class="fc-inner">
+                
+                                                                <div class="fc-content">
+                                                                    <div class="feynman">
+                                                                        <span></span>
+                                                                    </div>
+                                                                </div>
+                
+                                                                <div class="fc-overlay fc-overlay-right"></div>
+                
+                
+                                                            </div>
+                
+                                                        </div><!-- //fc-back -->
+                
+                                                    </div><!-- //fc-flip -->
+                
+                                                </div><!-- //fc-perspective -->
+                
+                                            </div><!-- //fc-wrapper -->
+                
+                                        </section>
+                
+                                    </div>
+                                    <script type="text/javascript"
+                                        src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+                                    <script type="text/javascript" src="js/staff-hammer.js"></script>
+                                    <script type="text/javascript" src="js/staff-jquery.hammer.js"></script>
+                                    <script type="text/javascript">
+                                        $(function () {
+                
+                                            var $wrapper = $('#fc-wrapper-5'),
+                                                $handle = $wrapper.children('div.fc-handle-pull');
+                
+                                            $handle.on('click', function (event) {
+                
+                                                ($handle.data('opened')) ? close() : open();
+                
+                                            });
+                
+                                            $wrapper.hammer().bind('dragend', function (event) {
+                                                switch (event.direction) {
+                                                    case 'right': open(); break;
+                                                    case 'left': close(); break;
+                                                }
+                                            });
+                
+                                            function open() {
+                                                $wrapper.addClass('fc-wrapper-open');
+                                                $handle.data('opened', true);
+                                            }
+                
+                                            function close() {
+                                                $wrapper.removeClass('fc-wrapper-open');
+                                                $handle.data('opened', false);
+                                            }
+                
+                                        });
+                                    </script>
+                
+                
+                
+                
+                                    <div class="staff-container">
+                
+                                        <section class="main">
+                                            <div class="click"></div>
+                                            <div id="fc-wrapper-6" class="fc-wrapper">
+                
+                                                <!-- right-most handle piece -->
+                                                <div class="fc-handle fc-handle-pull"></div>
+                
+                                                <div class="fc-perspective">
+                
+                                                    <!-- right part overlay; get's darker -->
+                                                    <div class="fc-overlay fc-overlay-reverse"></div>
+                
+                                                    <!-- middle handle piece -->
+                                                    <div class="fc-handle fc-handle-out">
+                                                        <div></div>
+                                                    </div>
+                
+                                                    <!-- inner bottom content part -->
+                                                    <div class="fc-bottom">
+                                                        <div class="fc-bottom-bg">
+                                                            <div class="fc-content">
+                                                                <p><span>BUI DINH TRI</span></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="fc-overlay fc-overlay-solid"></div>
+                                                    </div><!-- //fc-bottom -->
+                
+                                                    <!-- front and back of the flipping half -->
+                                                    <div class="fc-flip">
+                
+                                                        <div class="fc-front">
+                
+                                                            <div class="fc-inner">
+                
+                                                                <div class="fc-overlay fc-overlay-left"></div>
+                                                                <!-- left-most part of handle -->
+                                                                <div class="fc-handle fc-handle-in">
+                                                                    <div></div>
+                                                                </div>
+                
+                                                                <div class="fc-content">
+                                                                    <h3><span></span>Founder</h3>
+                                                                    <p style="margin-top:45px;">Blosshine project</p>
+                                                                </div>
+                
+                                                            </div>
+                
+                                                        </div><!-- //fc-front -->
+                
+                                                        <div class="fc-back">
+                
+                                                            <div class="fc-inner">
+                
+                                                                <div class="fc-content">
+                                                                    <div class="feynman">
+                                                                        <span></span>
+                                                                    </div>
+                                                                </div>
+                
+                                                                <div class="fc-overlay fc-overlay-right"></div>
+                
+                
+                                                            </div>
+                
+                                                        </div><!-- //fc-back -->
+                
+                                                    </div><!-- //fc-flip -->
+                
+                                                </div><!-- //fc-perspective -->
+                
+                                            </div><!-- //fc-wrapper -->
+                
+                                        </section>
+                
+                                    </div>
+                                    <script type="text/javascript"
+                                        src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+                                    <script type="text/javascript" src="js/staff-hammer.js"></script>
+                                    <script type="text/javascript" src="js/staff-jquery.hammer.js"></script>
+                                    <script type="text/javascript">
+                                        $(function () {
+                
+                                            var $wrapper = $('#fc-wrapper-6'),
+                                                $handle = $wrapper.children('div.fc-handle-pull');
+                
+                                            $handle.on('click', function (event) {
+                
+                                                ($handle.data('opened')) ? close() : open();
+                
+                                            });
+                
+                                            $wrapper.hammer().bind('dragend', function (event) {
+                                                switch (event.direction) {
+                                                    case 'right': open(); break;
+                                                    case 'left': close(); break;
+                                                }
+                                            });
+                
+                                            function open() {
+                                                $wrapper.addClass('fc-wrapper-open');
+                                                $handle.data('opened', true);
+                                            }
+                
+                                            function close() {
+                                                $wrapper.removeClass('fc-wrapper-open');
+                                                $handle.data('opened', false);
+                                            }
+                
+                                        });
+                                    </script>
+                                    </div>
+
+
+
+                        </div>
+
+
+
+                </section>
+
+                <section class="st-panel st-color" id="st-panel-4">
+                    <div class="st-deco"></div>
+                    <a class="icon" href="index1.html"><img class="icon" src="https://i.imgur.com/bIpbj7X.png"
+                            alt=""></a>
+                    <h2>FAQs</h2>
+                    <p>Mixtape fap leggings art party, butcher authentic farm-to-table you probably haven't heard of
+                        them do labore cosby sweater.</p>
+                </section>
+
+                <section class="st-panel" id="st-panel-5">
+                    <div class="st-deco"></div>
+                    <a class="icon" href="index1.html"><img class="icon" src="https://i.imgur.com/bIpbj7X.png"
+                            alt=""></a>
+                    <h2>Contact</h2>
+                    <p>Fixie ad odd future polaroid dreamcatcher, nesciunt carles bicycle rights accusamus mcsweeney's
+                        mumblecore nulla irony.</p>
+                </section>
+
+            </div><!-- // st-scroll -->
+
+        </div><!-- // st-container -->
+
     </div>
-
-
-
-
-    <div id="background-2">
-        <div id="fd-1" class="footer-div"></div>
-
-        <div id="fd-2" class="footer-div"></div>
-
-        <div id="fd-3" class="footer-div"></div>
-
-        <div id="fd-4" class="footer-div"></div>
-
-        <div id="fd-5" class="footer-div"></div>
-    </div>
-
-
-    <div id="background-3">
-        <div id="footer-logo-box">
-            <img id="footer-bls-logo"
-                src="https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-9/35235275_2182687721967154_2617440270903410688_n.png?_nc_cat=101&_nc_oc=AQnoYgmqmJElmGFzphnHeBYYhv54pMZHnyr_Q99G4IpeNoLxXkEIuBFR1srtKp_SPyc&_nc_ht=scontent.fhan3-3.fna&oh=70b04f12b007d74d613e56cde64134b7&oe=5DCEB0F3"
-                alt="">
-        </div>
-
-        <div id="footer-sm-logo-box">
-            <div>
-                <ul class="social-network social-circle">
-                    <li><a href="https://www.facebook.com/Blosshine.project.wwv/" target="_blank" class="icoFacebook"
-                            title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="" target="_blank" class="icoInstagram" title="Instagram"><i
-                                class="fa fa-instagram"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <script src="js\goToTopBtn.js"></script>
-    <script src="js\scrollHeader.js"></script>
 </body>
 
 </html>
