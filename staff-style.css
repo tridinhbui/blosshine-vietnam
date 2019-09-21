@@ -3,7 +3,7 @@
 	height: 300px;
 	position: relative;
 	margin: 30px auto 0;
-	background: #846aa7 url(../images/paper.png) repeat center center;
+	background: rgba(236, 196, 76, 0.948) url(../images/paper.png) repeat center center;
 	border-radius: 50%;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
@@ -17,7 +17,7 @@
 	width: 80px;
 	height: 30px;
 	margin-top: -15px;
-	background: #775b9d;
+	background: rgba(236, 196, 76, 1);
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
@@ -71,8 +71,8 @@
 .fc-handle-pull {
 	right: auto;
 	left: 100%;
-	margin-left: 5px;
-	width: 30px;
+	margin-left: 0px;
+	width: 45px;
 	box-shadow: 
 		1px 0 1px rgba(0,0,0,0.1), 
 		inset 3px 0 2px rgba(0,0,0,0.2);
@@ -84,7 +84,7 @@
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	width: 30px;
+	width: 45px;
 	height: 100%;
 	background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 69%, rgba(0,0,0,0.08) 100%);
 	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 69%,rgba(0,0,0,0.08) 100%);
@@ -104,7 +104,7 @@
 }
 
 .fc-bottom-bg {
-	background: #846aa7 url(../images/paper.png) repeat center center;
+	background: rgba(236, 196, 76, 1) url(../images/paper.png) repeat center center;
 	border-radius: 50%;
 	width: 300px;
 	height: 100%;
@@ -195,14 +195,14 @@
 	width: 300px;
 	height: 100%;
 	position: absolute;
-	background: #846aa7 url(../images/paper.png) repeat top right;
+	background: rgba(236, 196, 76, 1) url(../images/paper.png) repeat top right;
 } 
 
 /* Content */
 
 .fc-content {
-	width: 220px;
-	padding: 20px;
+	width: 200px;
+	padding: 0px;
 	text-align: right;
 	position: relative;
 	height: 100%;
@@ -224,7 +224,7 @@
 
 .fc-flip .fc-back .fc-inner {
 	margin-left: -80px;
-	background-color: #553c77;
+	background-color: rgba(236, 196, 76, 1);
 	box-shadow: inset 2px 0 3px rgba(0,0,0,0.1);
 }
 
@@ -241,9 +241,10 @@
 .feynman span {
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
-	font-size: 17px;
+	font-size: 30px;
 	letter-spacing: 1px;
 	font-weight: normal;
+	margin-left: 10px;
 }
 
 .fc-flip .fc-front h3 {
@@ -287,7 +288,7 @@
 	left: -15px;
 	font-family: "Dancing Script", Georgia, serif;
 	font-weight: 700;
-	font-size: 22px;
+	font-size: 25px;
 }
 
 .fc-bottom-bg .fc-content span {
@@ -316,11 +317,11 @@
 .fc-handle div,
 .fc-flip,
 .fc-bottom{
-	-webkit-transition: all 0.6s ease-in-out;
-	-moz-transition: all 0.6s ease-in-out;
-	-o-transition: all 0.6s ease-in-out;
-	-ms-transition: all 0.6s ease-in-out;
-	transition: all 0.6s ease-in-out;
+	-webkit-transition: all 1.6s ease-in-out;
+	-moz-transition: all 1.6s ease-in-out;
+	-o-transition: all 1.6s ease-in-out;
+	-ms-transition: all 1.6s ease-in-out;
+	transition: all 1.6s ease-in-out;
 }
 .fc-bottom{
 	-webkit-transition-delay: 0.6s;
@@ -348,11 +349,11 @@
 .fc-overlay,
 .fc-flip .fc-front p,
 .fc-flip .fc-front span {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-o-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	backface-visibility: hidden;
+	-webkit-backface-visibility: visible;
+	-moz-backface-visibility: visible;
+	-o-backface-visibility: visible;
+	-ms-backface-visibility: visible;
+	backface-visibility: visible;
 }
 
 /* Hover states */
@@ -370,16 +371,16 @@
 }
 
 .fc-wrapper.fc-wrapper-open .fc-handle {
-	background-color: #513a70;
+	background-color: rgba(236, 196, 76, 1);
 }
 
 .fc-wrapper.fc-wrapper-open .fc-handle-pull {
 	width: 155px;
-	background: #775b9d;	
+	background: rgba(236, 196, 76, 1);	
 }
 
 .fc-wrapper.fc-wrapper-open  .fc-flip .fc-back .fc-inner { 
-	background-color: #846aa7;
+	background-color: rgba(236, 196, 76, 1);
 }
 
 .fc-wrapper.fc-wrapper-open .fc-overlay {
@@ -404,9 +405,9 @@
 	
 }
 .fc-wrapper.fc-wrapper-open .fc-flip {
-	-webkit-transform: rotate3d(0,1,0,175deg);
+	-webkit-transform: rotate3d(0,1,0,180deg);
 	-moz-transform: rotate3d(0,1,0,180deg);
-	-o-transform: rotate3d(0,1,0,175deg);
-	-ms-transform: rotate3d(0,1,0,175deg);
-	transform: rotate3d(0,1,0,175deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
 }
