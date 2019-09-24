@@ -280,8 +280,9 @@ section::after {
 
 /* _______________________________________________________________________________________________ */
 #gif-container {
+    overflow: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
     background-image: url(https://media.giphy.com/media/O1A7W9ipgqOpq/giphy.gif);
@@ -289,29 +290,45 @@ section::after {
 }
 
 .img-container {
+    height: 50vh;
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    flex-direction: row;
+    width: 100%;
 }
 
-#img-1, #img-2 {
-    height: 50%;
-    margin-left: 7%;
-    margin-right: 3%;
+.img-container-1 {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-#img-3, #img-4 {
-    height: 50%;
-    margin-right:7%;
-    margin-left: 3%;
+.img-container-2 {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.img-container-3 {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12, #imgg-13, #img-14, #img-15, #img-16 {
+    height: 50vh;
+    width: 25%;
 }
 
 #img-1 {
-  background-image: url(https://i.imgur.com/0xb4HNv.jpg);
+  background-image: url(https://i.imgur.com/kTX3Voo.png);
   background-size: cover;
   opacity: 0;
   transition: 1s;
   border-radius: 3em;
+  margin-left: 1.55%;
 }
 
 #img-1:hover {
@@ -322,7 +339,7 @@ section::after {
 
 
 #img-2 {
-  background-image: url(https://i.imgur.com/kTX3Voo.png);
+  background-image: url(https://i.imgur.com/0xb4HNv.jpg);
   background-size: cover;
   opacity: 0;
   transition: 1s;
@@ -366,6 +383,9 @@ section::after {
   cursor: pointer;
 }
 
+/* ______________________________________________________________________________________________________ */
+
+
 
 /* __________________________________________________________________________________________________________ */
 
@@ -373,7 +393,6 @@ section::after {
 #background-2 {
   display: flex;
   width: 100%;
-  height: 50vh;
   background-color: rgba(236, 196, 76, 1);
 }
 
@@ -409,7 +428,6 @@ section::after {
 
 
 #background-3 {
-  height: 70vh;
   width: 100%;
   background-color: rgba(236, 196, 76, 1);
   display: flex;
