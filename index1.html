@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" href="css/sidenavPush.css">
     <link rel="stylesheet" href="style1.css">
     <script type="text/javascript" src="js/home-modernizr.custom.79639.js"></script>
     <noscript>
@@ -22,7 +23,20 @@
 
 <body>
 
-    <div class="container demo-1">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="mission.html"><b>About us</b></a>
+        <a href="index3.html"><b>Education</b></a>
+        <a href="stories.html"><b>Stories</b></a>
+        <a href="#"><b>Global data</b></a>
+        <a href="#"><b>Activities</b></a>
+        <a href="#"><b>Confession</b></a> 
+        <a href="#"><b>Join us</b></a>
+    </div>
+
+    <div id="container-demo-1" class="container demo-1">
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
         <div id="slider" class="sl-slider-wrapper">
 
@@ -31,10 +45,12 @@
                 <div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25"
                     data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
                     <div class="sl-slide-inner">
-                        <div class="deco" ></div>
+                        <div class="deco"></div>
                         <h2 style="color: rgba(236, 196, 76, 1);">Blosshine Project</h2>
                         <blockquote>
-                            <p>Blosshine Project là một dự án được thành lập hướng tới việc nâng cao nhận thức của cộng đồng về vấn nạn bạo hành trẻ em.</p><cite><a id="explore-1" href="mission.html">Explore more</a></cite>
+                            <p>Blosshine Project là một dự án được thành lập hướng tới việc nâng cao nhận thức của cộng
+                                đồng về vấn nạn bạo hành trẻ em.</p><cite><a id="explore-1" href="mission.html">Explore
+                                    more</a></cite>
                         </blockquote>
                     </div>
                 </div>
@@ -42,10 +58,12 @@
                 <div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10"
                     data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
                     <div class="sl-slide-inner">
-                        <div class="deco" ></div>
+                        <div class="deco"></div>
                         <h2 style="color: rgba(236, 196, 76, 1);">EDUCATION</h2>
                         <blockquote>
-                            <p style="color: white;" >Learn about the major types of child abuse and what constitutes physical abuse, sexual abuse, emotional abuse and neglect of a child.</p><cite><a id="explore-2" href="index3.html">Explore more</a></cite>
+                            <p style="color: white;">Learn about the major types of child abuse and what constitutes
+                                physical abuse, sexual abuse, emotional abuse and neglect of a child.</p><cite><a
+                                    id="explore-2" href="index3.html">Explore more</a></cite>
                         </blockquote>
                     </div>
                 </div>
@@ -53,10 +71,12 @@
                 <div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3"
                     data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
                     <div class="sl-slide-inner">
-                        <div class="deco" ></div>
+                        <div class="deco"></div>
                         <h2 style="color:rgba(236, 196, 76, 1);">Stories</h2>
                         <blockquote>
-                            <p>Learn about the major types of child abuse and what constitutes physical abuse, sexual abuse, emotional abuse and neglect of a child.</p><cite><a id="explore-3" href="stories.html">Explore more</a></cite>
+                            <p>Learn about the major types of child abuse and what constitutes physical abuse, sexual
+                                abuse, emotional abuse and neglect of a child.</p><cite><a id="explore-3"
+                                    href="stories.html">Explore more</a></cite>
                         </blockquote>
                     </div>
                 </div>
@@ -64,10 +84,11 @@
                 <div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5"
                     data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
                     <div class="sl-slide-inner">
-                        <div class="deco" ></div>
-                        <h2 style="color:rgba(236, 196, 76, 1);">Confession</h2>
+                        <div class="deco"></div>
+                        <h2 style="color:rgba(236, 196, 76, 1);">Global Data</h2>
                         <blockquote>
-                            <p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite><a id="explore-4" href="">Explore more</a></cite>
+                            <p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk,
+                                or giraffes' milk.</p><cite><a id="explore-4" href="">Explore more</a></cite>
                         </blockquote>
                     </div>
                 </div>
@@ -75,10 +96,12 @@
                 <div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5"
                     data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
                     <div class="sl-slide-inner">
-                        <div class="deco" ></div>
+                        <div class="deco"></div>
                         <h2 style="color:rgba(236, 196, 76, 1);">Activities</h2>
                         <blockquote>
-                            <p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite><a id="explore-5" href="">Explore more</a></cite>
+                            <p>I think if you want to eat more meat you should kill it yourself and eat it raw so that
+                                you are not blinded by the hypocrisy of having it processed for you.</p><cite><a
+                                    id="explore-5" href="">Explore more</a></cite>
                         </blockquote>
                     </div>
                 </div>
@@ -170,6 +193,9 @@
 
         });
     </script>
+
+    <script src="js/sidenavPush.js"></script>
+
 </body>
 
 </html>
