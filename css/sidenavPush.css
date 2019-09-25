@@ -47,10 +47,21 @@
     }
 }
 
-#container-demo-1 > span {
+#closeBtn {
+    position: absolute;
+    z-index: -1;
+    margin: 1% 0% 0% 2%;
+    font-size: 50px;
+    color: rgba(236, 196, 76, 1);
+}
+
+#openBtn {
     position: absolute;
     z-index: 10;
     margin: 2% 0% 0% 2%;
+    color: rgba(236, 196, 76, 1);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 #mySidenav > a {

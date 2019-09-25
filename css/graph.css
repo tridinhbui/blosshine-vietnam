@@ -1,0 +1,22 @@
+html, body {
+    width:100%;
+    height: 100vh;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 300; */
+    font-size: 15px;
+    color: #333;
+	-webkit-font-smoothing: antialiased;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+	background: #ddd url(../images/egg_shell.jpg) repeat top left;
+	overflow: scroll;
+    overflow-x: hidden;
+    transition: margin-left .5s;
+}
