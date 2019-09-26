@@ -39,6 +39,7 @@ body{
 	color: #333;
 	overflow: scroll;
 	overflow-x: hidden;
+	z-index: 0;
 }
 a{
 	color: #555;
@@ -48,6 +49,7 @@ a{
 	width: 100%;
 	position: relative;
 	transition: margin-left .5s;
+	z-index: 0;
 }
 .clr{
 	clear: both;

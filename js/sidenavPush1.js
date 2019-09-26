@@ -1,13 +1,13 @@
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("container").style.marginLeft = "250px";
-    document.getElementById("closeBtn").style.zIndex = "10";
-    document.getElementById("openBtn").style.zIndex = "-1";
+    document.getElementById("closeBtn").style.visibility = "visible";
+    document.getElementById("openBtn").style.visibility = "hidden";
   }
   
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("container").style.marginLeft= "0";
-    document.getElementById("closeBtn").style.zIndex = "-1";
-    document.getElementById("openBtn").style.zIndex = "10";
+    document.getElementById("closeBtn").style.visibility = "hidden";
+    document.getElementById("openBtn").style.visibility = "visible";
   }
