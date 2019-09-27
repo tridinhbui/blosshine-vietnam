@@ -61,3 +61,10 @@ nav {
     padding: 2rem;
     margin: 0 0 2rem 0;
   }
+
+  .display-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

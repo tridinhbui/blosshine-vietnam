@@ -48,7 +48,7 @@
 }
 
 #closeBtn {
-    position: absolute;
+    position: fixed;
     visibility: hidden;
     margin: 1% 0% 0% 2%;
     font-size: 50px;
@@ -57,7 +57,7 @@
 }
 
 #openBtn {
-    position: absolute;
+    position: fixed;
     visibility: visible;
     margin: 2% 0% 0% 2%;
     color: rgba(236, 196, 76, 1);
