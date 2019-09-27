@@ -53,6 +53,7 @@
     margin: 1% 0% 0% 2%;
     font-size: 50px;
     color: rgba(236, 196, 76, 1);
+    z-index: 100;
 }
 
 #openBtn {
@@ -62,6 +63,7 @@
     color: rgba(236, 196, 76, 1);
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    z-index: 100;
 }
 
 #mySidenav > a {
