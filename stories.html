@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="sexual-abuse.css">
     <link rel="stylesheet" href="emotional-abuse.css">
     <link rel="stylesheet" href="str-1.css">
+    <link rel="stylesheet" href="css/sidenavPush.css">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
     <link
@@ -32,39 +33,21 @@
             src="https://www.taalvistahotel.com/sites/all/themes/taalvistahotel/images/up-button.png" alt="">
     </button>
 
+    <div id="mySidenav" class="sidenav">
+        <a href="mission.html"><b>About us</b></a>
+        <a href="index3.html"><b>Education</b></a>
+        <a href="stories.html"><b>Stories</b></a>
+        <a href="graph.html"><b>Global data</b></a>
+        <a href="#"><b>Activities</b></a>
+        <a href="#"><b>Confession</b></a>
+        <a href="#"><b>Join us</b></a>
+    </div>
 
     <div id="container">
-        <div id="header">
-            <div id="row-1">
-                <a href="index1.html" id="projectName">Blosshine Project</a>
-            </div>
 
-            <div id="row-2">
+        <span id="openBtn" style="font-size:30px;cursor:pointer" onclick="openNavStories()">&#9776;</span>
 
-                <div class="row-2-1">
-                    <div class="dropdown">
-                        <button id="about" class="dropbtn">About</button>
-                        <div class="dropdown-content">
-                            <a href="#">Overview</a>
-                            <a href="mission.html">Mission</a>
-                            <a href="#">Staffs</a>
-                            <a href="#">Partners</a>
-                            <a href="#">FAQs</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row-2-1">
-                    <a class="a-tag" id="contactUs" href="">Contact Us</a>
-                </div>
-
-                <div class="row-2-1">
-                    <a class="a-tag" id="cfs" href="">Blossom Confession</a>
-                </div>
-
-            </div>
-
-        </div>
+        <span id="closeBtn" style="margin: 0.35% 0% 0% 1.7%; cursor:pointer" onclick="closeNavStories()">&times;</span>
 
         <div id="pre-gif">
 
@@ -170,15 +153,40 @@
 
                 <!-- Overlay content -->
                 <div id="pa-1">
-                    <b style="color: brown; font-size: 1.4em;">Nạn ấu dâm – Nghệ thuật đã chọn lên tiếng, còn bạn thì sao?</b>
+                    <b style="color: brown; font-size: 1.4em;">Nạn ấu dâm – Nghệ thuật đã chọn lên tiếng, còn bạn thì
+                        sao?</b>
                     <hr>
-                    <p>Sức mạnh của nghệ thuật nói chung và điện ảnh nói riêng nằm ở tiếng nói bảo vệ kẻ yếu và khả năng đánh thức lương tri con người. Từng thước phim là sự khai thác triệt để hiện thực , qua đó thay lời nghệ nhân bộc lộ quan điểm và bảo vệ những người dễ tổn thương nhất- trẻ em, đặc biệt là khi nạn ấu dâm đang dần ăn mòn tuổi thơ các em.</p>
-                    <p>Năm 2011, đạo diễn Hwang Dong Hyuk với tác phẩm Silenced đã xuất hiện như một phát súng mở màn, phá tan đi sự im lặng và thờ ơ của xã hội đối với bạo hành trẻ em, một vấn đề nhạy cảm mà bấy lâu nay công chúng đã bị che mắt.</p>
-                    <p>Bộ phim tái hiện lại hành trình đi tìm công lí cho những trẻ em khiếm khuyết bị lợi dụng tình dục của thầy trò In Ho. Nội dung đơn giản là vậy, nhưng cách nghệ thuật dẫn dắt sự việc đã biến Silenced thành “ nỗi ám ảnh về sự im lặng” . Quả vậy, từ tiêu đề đến xuyên suốt bộ phim là sự câm lặng đến rùng mình. Đó là sự câm lặng yếu đuối không dám lên tiếng của những học sinh khiếm khuyết, là sự ngó lơ tội ác tàn nhẫn của những thầy cô phụ trách của trường, và đáng nói hơn, sự im lặng lấp liếm cho kẻ ác của pháp luật.</p>
-                    <p>Vấn nạn trong phim đáng sợ là thế, nhưng dường như nó lại phản ánh chính xác nhất sự im lặng ngoài đời.</p>
-                    <p>Nạn ấu dâm không phải là cơn thủy triều dữ dội đến rồi đi, mà là một thứ AXIT có hại ăn mòn xã hội. Dường như sự câm lặng của xã hội trước nạn ấu dâm đang hoành hành là một vòng tuần hoàn. Nạn nhân không lên tiếng vì sợ bê bối, sợ những định kiến cổ hủ đã ghim sâu vào tư tưởng của dư luận sẽ phá hoại danh dự của họ; Xã hội ngó lơ vì thiếu đồng cảm, thiếu nhận thức; Pháp luật dửng dưng vì hám lợi lộc trước mắt thì ít mà vì đinh ninh cho rằng giới truyền thông không để tâm thì nhiều, từ đó vô tình tạo ra những lỗ hổng trong xã hội, khiến thứ axit độc hại này ngang nhiên ăn mòn cuộc sống của các em.</p>
-                    <p>Chỉ cần một mắt xích trong số đó thức tỉnh để lên tiếng, mọi sự im lặng sẽ thành vô nghĩa. Và người cần lên tiếng nhất , không ai khác, chính là các nạn nhân. Chỉ khi các nạn nhân đem câu chuyện của mình, những khổ đau của mình nói ra, công chúng mới thực sự hiểu, đồng cảm và bảo vệ những con người đáng nâng niu ấy. Khi ấy, họ sẽ gây áp lực đối với những hình phạt pháp luật lỏng lẻo, những hành vi lấp liếm tội ác để chuộc lợi, từ đó khiến cho kẻ ác từ bỏ ý định thực hiện tội ác.</p>
-                    <p>Hành trình đứng lên vì bản thân không đơn giản, nhưng các bạn không đi một mình. Đừng quên là Blosshine luôn ở bên, sẵn sàng lắng nghe những tâm sự ấy và đồng hành cùng các bạn trên chặng đường sắp tới nhé.</p>
+                    <p>Sức mạnh của nghệ thuật nói chung và điện ảnh nói riêng nằm ở tiếng nói bảo vệ kẻ yếu và khả năng
+                        đánh thức lương tri con người. Từng thước phim là sự khai thác triệt để hiện thực , qua đó thay
+                        lời nghệ nhân bộc lộ quan điểm và bảo vệ những người dễ tổn thương nhất- trẻ em, đặc biệt là khi
+                        nạn ấu dâm đang dần ăn mòn tuổi thơ các em.</p>
+                    <p>Năm 2011, đạo diễn Hwang Dong Hyuk với tác phẩm Silenced đã xuất hiện như một phát súng mở màn,
+                        phá tan đi sự im lặng và thờ ơ của xã hội đối với bạo hành trẻ em, một vấn đề nhạy cảm mà bấy
+                        lâu nay công chúng đã bị che mắt.</p>
+                    <p>Bộ phim tái hiện lại hành trình đi tìm công lí cho những trẻ em khiếm khuyết bị lợi dụng tình dục
+                        của thầy trò In Ho. Nội dung đơn giản là vậy, nhưng cách nghệ thuật dẫn dắt sự việc đã biến
+                        Silenced thành “ nỗi ám ảnh về sự im lặng” . Quả vậy, từ tiêu đề đến xuyên suốt bộ phim là sự
+                        câm lặng đến rùng mình. Đó là sự câm lặng yếu đuối không dám lên tiếng của những học sinh khiếm
+                        khuyết, là sự ngó lơ tội ác tàn nhẫn của những thầy cô phụ trách của trường, và đáng nói hơn, sự
+                        im lặng lấp liếm cho kẻ ác của pháp luật.</p>
+                    <p>Vấn nạn trong phim đáng sợ là thế, nhưng dường như nó lại phản ánh chính xác nhất sự im lặng
+                        ngoài đời.</p>
+                    <p>Nạn ấu dâm không phải là cơn thủy triều dữ dội đến rồi đi, mà là một thứ AXIT có hại ăn mòn xã
+                        hội. Dường như sự câm lặng của xã hội trước nạn ấu dâm đang hoành hành là một vòng tuần hoàn.
+                        Nạn nhân không lên tiếng vì sợ bê bối, sợ những định kiến cổ hủ đã ghim sâu vào tư tưởng của dư
+                        luận sẽ phá hoại danh dự của họ; Xã hội ngó lơ vì thiếu đồng cảm, thiếu nhận thức; Pháp luật
+                        dửng dưng vì hám lợi lộc trước mắt thì ít mà vì đinh ninh cho rằng giới truyền thông không để
+                        tâm thì nhiều, từ đó vô tình tạo ra những lỗ hổng trong xã hội, khiến thứ axit độc hại này ngang
+                        nhiên ăn mòn cuộc sống của các em.</p>
+                    <p>Chỉ cần một mắt xích trong số đó thức tỉnh để lên tiếng, mọi sự im lặng sẽ thành vô nghĩa. Và
+                        người cần lên tiếng nhất , không ai khác, chính là các nạn nhân. Chỉ khi các nạn nhân đem câu
+                        chuyện của mình, những khổ đau của mình nói ra, công chúng mới thực sự hiểu, đồng cảm và bảo vệ
+                        những con người đáng nâng niu ấy. Khi ấy, họ sẽ gây áp lực đối với những hình phạt pháp luật
+                        lỏng lẻo, những hành vi lấp liếm tội ác để chuộc lợi, từ đó khiến cho kẻ ác từ bỏ ý định thực
+                        hiện tội ác.</p>
+                    <p>Hành trình đứng lên vì bản thân không đơn giản, nhưng các bạn không đi một mình. Đừng quên là
+                        Blosshine luôn ở bên, sẵn sàng lắng nghe những tâm sự ấy và đồng hành cùng các bạn trên chặng
+                        đường sắp tới nhé.</p>
                 </div>
 
 
@@ -200,20 +208,39 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
 
                 <!-- Overlay content -->
-                    <div id="pa-1">
-                        <b style="color: brown; font-size: 1.4em;">Mẹ ơi, con muốn làm bác sĩ</b>
-                        <hr>
-                        <p>Cũng đã gần 3 tháng rồi kể từ lần cuối tôi gặp Kiều - cô bé hàng xóm thân thiết và đáng yêu của tôi. Em đã từng là một trong những người bạn thân nhất của tôi. Em thông minh, xinh xắn, hồn nhiên và rất hay cười. Ước mơ của em từ thuở bé là trở thành một bác sĩ giỏi để cứu chữa mọi người, mang lại tiếng cười và niềm hạnh phúc đến cho những người xung quanh. Tôi luôn tin rằng điều ước ấy của em rồi sẽ có ngày trở thành hiện thực. Nhưng rồi...</p>
-                        <p>Kiều bị hãm hiếp trong một con hẻm vắng trên đường đi học về. Khi người ta tìm thấy em, em đã ngất lịm đi từ khi nào với những vết thương rỉ máu dọc cơ thể chẳng có một mảnh vải che. Em bị tổn thương nặng vùng kín, và kinh khủng hơn, em bị chấn động tâm lý mạnh đến mức có dấu hiệu tâm thần.</p>
-                        <p>Kiều của tôi từ một cô bé luôn tươi cười trở nên vô hồn, tiều tụy. Khuôn mặt bầu bĩnh, đáng yêu của em nay đã không còn nữa mà thay vào đó là sự hốc hác, run rẩy, giật mình mỗi khi có ai tiến đến gần em. Chân tay em bị bầm tím, đôi mắt của em đỏ ngầu, sưng húp, nhìn xót xa và đau đớn biết nhường nào. Tôi nghe mẹ em kể rằng, cứ đêm về, em lại có những cơn ác mộng kinh hoàng và liên tục gào thét, khóc lóc.</p>
-                        <p>Kiều từng muốn trở thành bác sĩ, nhưng giờ đây máu khiến em phát điên, quay cuồng trong những ảo giác về cái ngày kinh hoàng ấy. Em từng muốn cứu giúp và chữa bệnh cho mọi người, nhưng bây giờ em lại chẳng thể cứu nổi chính bản thân em. Em muốn mang hạnh phúc đến cho mọi người, nhưng chính em lại bị tước đi hạnh phúc khi chưa đầy 10 tuổi. Cuộc sống này chẳng lẽ luôn bất công đến vậy hay sao?</p>
-                        <p>Tôi sẽ trở thành bác sĩ. Tôi muốn làm một bác sĩ tâm lý để giúp những nạn nhân như em - những người xứng đáng được sống và trân trọng hơn ai hết. Tôi muốn những nạn nhân ấy hiểu rằng: cái chết không phải là lối thoát duy nhất, bởi ai cũng có quyền làm lại từ đầu. Tôi không thể cứu được em, nhưng tôi sẽ thay em thực hiện ước mơ ấy. Tôi nhất định sẽ bảo vệ những người như em.</p>
-                    </div>
+                <div id="pa-1">
+                    <b style="color: brown; font-size: 1.4em;">Mẹ ơi, con muốn làm bác sĩ</b>
+                    <hr>
+                    <p>Cũng đã gần 3 tháng rồi kể từ lần cuối tôi gặp Kiều - cô bé hàng xóm thân thiết và đáng yêu của
+                        tôi. Em đã từng là một trong những người bạn thân nhất của tôi. Em thông minh, xinh xắn, hồn
+                        nhiên và rất hay cười. Ước mơ của em từ thuở bé là trở thành một bác sĩ giỏi để cứu chữa mọi
+                        người, mang lại tiếng cười và niềm hạnh phúc đến cho những người xung quanh. Tôi luôn tin rằng
+                        điều ước ấy của em rồi sẽ có ngày trở thành hiện thực. Nhưng rồi...</p>
+                    <p>Kiều bị hãm hiếp trong một con hẻm vắng trên đường đi học về. Khi người ta tìm thấy em, em đã
+                        ngất lịm đi từ khi nào với những vết thương rỉ máu dọc cơ thể chẳng có một mảnh vải che. Em bị
+                        tổn thương nặng vùng kín, và kinh khủng hơn, em bị chấn động tâm lý mạnh đến mức có dấu hiệu tâm
+                        thần.</p>
+                    <p>Kiều của tôi từ một cô bé luôn tươi cười trở nên vô hồn, tiều tụy. Khuôn mặt bầu bĩnh, đáng yêu
+                        của em nay đã không còn nữa mà thay vào đó là sự hốc hác, run rẩy, giật mình mỗi khi có ai tiến
+                        đến gần em. Chân tay em bị bầm tím, đôi mắt của em đỏ ngầu, sưng húp, nhìn xót xa và đau đớn
+                        biết nhường nào. Tôi nghe mẹ em kể rằng, cứ đêm về, em lại có những cơn ác mộng kinh hoàng và
+                        liên tục gào thét, khóc lóc.</p>
+                    <p>Kiều từng muốn trở thành bác sĩ, nhưng giờ đây máu khiến em phát điên, quay cuồng trong những ảo
+                        giác về cái ngày kinh hoàng ấy. Em từng muốn cứu giúp và chữa bệnh cho mọi người, nhưng bây giờ
+                        em lại chẳng thể cứu nổi chính bản thân em. Em muốn mang hạnh phúc đến cho mọi người, nhưng
+                        chính em lại bị tước đi hạnh phúc khi chưa đầy 10 tuổi. Cuộc sống này chẳng lẽ luôn bất công đến
+                        vậy hay sao?</p>
+                    <p>Tôi sẽ trở thành bác sĩ. Tôi muốn làm một bác sĩ tâm lý để giúp những nạn nhân như em - những
+                        người xứng đáng được sống và trân trọng hơn ai hết. Tôi muốn những nạn nhân ấy hiểu rằng: cái
+                        chết không phải là lối thoát duy nhất, bởi ai cũng có quyền làm lại từ đầu. Tôi không thể cứu
+                        được em, nhưng tôi sẽ thay em thực hiện ước mơ ấy. Tôi nhất định sẽ bảo vệ những người như em.
+                    </p>
+                </div>
 
 
-                    <div id="pa-2">
-                        <img src="https://i.imgur.com/88pnClH.png" alt="">
-                    </div>
+                <div id="pa-2">
+                    <img src="https://i.imgur.com/88pnClH.png" alt="">
+                </div>
 
             </div>
 
@@ -230,14 +257,14 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
 
                 <!-- Overlay content -->
-                    <div id="pa-1">
+                <div id="pa-1">
 
-                    </div>
+                </div>
 
 
-                    <div id="pa-2">
+                <div id="pa-2">
 
-                    </div>
+                </div>
 
             </div>
 
@@ -253,13 +280,13 @@
 
                 <!-- Overlay content -->
 
-                    <div id="pa-1">
-                    </div>
+                <div id="pa-1">
+                </div>
 
 
-                    <div id="pa-2">
+                <div id="pa-2">
 
-                    </div>
+                </div>
 
 
 
@@ -316,6 +343,7 @@
         <script src="js\fScr1.js"></script>
         <script src="js\fScr2.js"></script>
         <script src="js\fScr3.js"></script>
+        <script src="js/sidenavPush-stories.js"></script>
         <!-- <script src="js\unchangedHover.js"></script> -->
 
 </html>

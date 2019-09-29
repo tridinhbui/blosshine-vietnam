@@ -8,8 +8,14 @@ html {
     scroll-behavior: smooth;
 }
 
-/* _____________________________ */
+#container {
+  transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+}
 
+/* _____________________________ */
 
 #go-to-top-btn {
     display: none; 
