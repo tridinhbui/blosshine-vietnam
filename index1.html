@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/sidenavPush.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="css/flying-birds.css">
+    <link rel="stylesheet" href="css/menu-hover.css">
+    <link rel="stylesheet" href="css/preloader-home.css">
     <script type="text/javascript" src="js/home-modernizr.custom.79639.js"></script>
     <noscript>
         <link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
@@ -24,34 +26,71 @@
 </head>
 
 <body>
+
+
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <img style="
+            background-size: cover;
+            width: 260px;
+            height: 260px;
+            border: 2px dashed #ddd;
+            border: 2px dashed rgba(150,150,150,0.4);
+            border-radius: 50%;
+            position: absolute;
+            bottom: 57%;
+            left: 50%;
+            margin: 0 0 0 -130px;" src="https://i.imgur.com/A4z4JDz.png" alt="">
+            <div class="sk-circle">
+                <div class="sk-circle1 sk-child"></div>
+                <div class="sk-circle2 sk-child"></div>
+                <div class="sk-circle3 sk-child"></div>
+                <div class="sk-circle4 sk-child"></div>
+                <div class="sk-circle5 sk-child"></div>
+                <div class="sk-circle6 sk-child"></div>
+                <div class="sk-circle7 sk-child"></div>
+                <div class="sk-circle8 sk-child"></div>
+                <div class="sk-circle9 sk-child"></div>
+                <div class="sk-circle10 sk-child"></div>
+                <div class="sk-circle11 sk-child"></div>
+                <div class="sk-circle12 sk-child"></div>
+            </div>
+        </div>
+    </div>
+
+
     <div id="mySidenav" class="sidenav">
-        <a href="mission.html"><b>About us</b></a>
-        <a href="index3.html"><b>Education</b></a>
-        <a href="stories.html"><b>Stories</b></a>
-        <a href="graph.html"><b>Global data</b></a>
-        <a href="#"><b>Activities</b></a>
-        <a href="#"><b>Confession</b></a> 
-        <a href="#"><b>Join us</b></a>
+        <ul class="snip1226">
+            <li class="current"><a href="index1.html" data-hover="Home">Home</a></li>
+            <li><a href="mission.html" data-hover="About us">About us</a></li>
+            <li><a href="index3.html" data-hover="Education">Education</a></li>
+            <li><a href="stories.html" data-hover="Stories">Stories</a></li>
+            <li><a href="graph.html" data-hover="Global data">Global data</a></li>
+            <li><a href="#" data-hover="Activities">Activities</a></li>
+            <li><a href="#" data-hover="Confession">Confession</a></li>
+            <li><a href="#" data-hover="Join us">Join us</a></li>
+        </ul>
     </div>
 
     <div class="container-for-birds">
-	
+
         <div style="z-index: 100" class="bird-container bird-container--one">
             <div class="bird bird--one"></div>
         </div>
-        
+
         <div style="z-index: 100" class="bird-container bird-container--two">
             <div class="bird bird--two"></div>
         </div>
-        
+
         <div style="z-index: 100" class="bird-container bird-container--three">
             <div class="bird bird--three"></div>
         </div>
-        
+
         <div style="z-index: 100" class="bird-container bird-container--four">
             <div class="bird bird--four"></div>
         </div>
-        
+
     </div>
 
     <div id="container-demo-1" class="container demo-1">
@@ -71,7 +110,8 @@
                         <h2 style="color: rgba(236, 196, 76, 1);">Blosshine Project</h2>
                         <blockquote>
                             <p>Blosshine Project là một dự án được thành lập hướng tới việc nâng cao nhận thức của cộng
-                                đồng về vấn nạn bạo hành trẻ em.</p><cite><a id="explore-1" href="mission.html">About us</a></cite>
+                                đồng về vấn nạn bạo hành trẻ em.</p><cite><a id="explore-1" href="mission.html">About
+                                    us</a></cite>
                         </blockquote>
                     </div>
                 </div>
@@ -217,6 +257,28 @@
 
 
     <script src="js/sidenavPush.js"></script>
+
+
+    <!-- <script>
+        $(document).ready(function () {
+            //Preloader
+            $(window).on("load", function () {
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                    var preloader = $('.spinner-wrapper');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            })
+        });
+    </script> -->
+
+    <script>
+        setTimeout(function () {
+            $('.spinner-wrapper').fadeOut();
+            $('.spinner-wrapper').delay(150).fadeOut('slow');
+        }, 385);
+    </script>
 
 </body>
 

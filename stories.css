@@ -1,3 +1,7 @@
+.snip1226 a:hover {
+  text-decoration: none;
+}
+
 html, body {
     width: 100%;
     height: 200vh;
@@ -43,146 +47,9 @@ html {
     height: 60px;
 }
 
-
-
-.a-tag {
-    color: white;
-}
-
-
-.a-tag:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.a-tag {
-    color: white;
-    text-decoration: none;   
-    display: inline-block;
-    position: relative;
-    padding-bottom: 4px;
-}
-.a-tag:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: rgb(232, 232, 232);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-.a-tag:hover:after { 
-    width: 100%;
-    left: 0; 
-}
-
-#about {
-    color: white;
-}
-
-
 /* _______________________________________________________________________________ */
 
 
-/* Dropdown Button */
-.dropbtn {
-    font-size: 16px;
-    border: none;
-    background-color: black;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    left: 50%;
-    right: auto;
-    transform: translate(-50%, 0);
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown-content a:hover {
-      text-decoration: none;
-      color: white;
-      opacity: 0.5;
-      transition: .7s;
-  }
-  
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-
-  
-
-
-#header {
-    display: flex;
-    width: 100%;
-    height: 100px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0B0B0B;
-    position: fixed;
-    top: 0;
-    z-index: 9;     
-    box-shadow: 0 1px 25px rgba(0,0,0, .1);   
-    transition: .7s; 
-}
-
-#header.hide {
-    top: -101px;
-    transition: .7s;
-}
-
-
-#row-1 {
-    margin-top: 0px;
-    margin-left: 70px;
-}
-
-#row-2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#projectName {
-    color: white;
-    text-decoration: none;
-    font-size: 55px;
-    font-family: 'Vollkorn', serif;
-}
-
-.row-2-1 {
-    margin-top: 3px;
-    margin-right: 40px;
-    font-family: 'Vollkorn', serif;
-}
-
-#about, #contactUs, #cfs {
-    font-size: 25px;
-}
 
 /* ____________________________________________________________________________________________ */
 
