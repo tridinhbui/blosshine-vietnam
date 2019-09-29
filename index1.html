@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
     <link rel="stylesheet" href="css/sidenavPush.css">
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="css/flying-birds.css">
     <script type="text/javascript" src="js/home-modernizr.custom.79639.js"></script>
     <noscript>
         <link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
@@ -23,7 +24,6 @@
 </head>
 
 <body>
-
     <div id="mySidenav" class="sidenav">
         <a href="mission.html"><b>About us</b></a>
         <a href="index3.html"><b>Education</b></a>
@@ -34,12 +34,31 @@
         <a href="#"><b>Join us</b></a>
     </div>
 
+    <div class="container-for-birds">
+	
+        <div style="z-index: 100" class="bird-container bird-container--one">
+            <div class="bird bird--one"></div>
+        </div>
+        
+        <div style="z-index: 100" class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+        </div>
+        
+        <div style="z-index: 100" class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+        </div>
+        
+        <div style="z-index: 100" class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+        </div>
+        
+    </div>
+
     <div id="container-demo-1" class="container demo-1">
 
         <span id="openBtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open Menu</span>
 
         <span id="closeBtn" style="cursor:pointer" onclick="closeNav()">&times;</span>
-
 
         <div id="slider" class="sl-slider-wrapper">
 
@@ -195,6 +214,7 @@
 
         });
     </script>
+
 
     <script src="js/sidenavPush.js"></script>
 
