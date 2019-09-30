@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/activities.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/sidenavPush.css">
+    <link rel="stylesheet" href="css/menu-hover.css">
+    <title>Activities</title>
+</head>
+
+<body>
+
+    <img style="position:absolute; z-index: 998;" src="https://i.imgur.com/HyfnwQF.png" alt="">
+    <img style="position: absolute;" src="https://i.imgur.com/KO8VOWz.png" alt="">
+
+    <div style="z-index: 2000" id="mySidenav" class="sidenav">
+        <ul class="snip1226">
+            <li><a href="index1.html" data-hover="Home">Home</a></li>
+            <li><a href="mission.html" data-hover="About us">About us</a></li>
+            <li><a href="index3.html" data-hover="Education">Education</a></li>
+            <li><a href="stories.html" data-hover="Stories">Stories</a></li>
+            <li><a href="graph.html" data-hover="Global data">Global data</a></li>
+            <li class="current"><a href="activities.html" data-hover="Activities">Activities</a></li>
+            <li><a href="#" data-hover="Confession">Confession</a></li>
+            <li><a href="#" data-hover="Join us">Join us</a></li>
+        </ul>
+    </div>
+
+    <span class="btn" id="openBtn"
+        style="color: white; font-size:30px;cursor:pointer; z-index: 1000; left: 0; transition: .8s;"
+        onclick="openNav()">&#9776;</span>
+
+    <span class="btn" id="closeBtn"
+        style="color: white; cursor:pointer; z-index: 1000; left: 0; transition: .8s; margin-top: 1.5%;"
+        onclick="closeNav()">&times;</span>
+
+    <div style="z-index: 999;" id="contentContainer" class="trans3d">
+        <section id="carouselContainer" class="trans3d">
+            <a href="">
+                <figure id="item1" class="carouselItem trans3d">
+                    <div class="carouselItemInner trans3d">1</div>
+                </figure>
+            </a>
+            <a href="">
+                <figure id="item2" class="carouselItem trans3d">
+                    <div class="carouselItemInner trans3d">2</div>
+                </figure>
+            </a>
+            <figure id="item3" class="carouselItem trans3d">
+                <div class="carouselItemInner trans3d">3</div>
+            </figure>
+            <figure id="item4" class="carouselItem trans3d">
+                <div class="carouselItemInner trans3d">4</div>
+            </figure>
+            <figure id="item5" class="carouselItem trans3d">
+                <div class="carouselItemInner trans3d">5</div>
+            </figure>
+            <!-- <figure id="item6" class="carouselItem trans3d"><div class="carouselItemInner trans3d">6</div></figure>
+        <figure id="item7" class="carouselItem trans3d"><div class="carouselItemInner trans3d">7</div></figure>
+        <figure id="item8" class="carouselItem trans3d"><div class="carouselItemInner trans3d">8</div></figure>
+        <figure id="item9" class="carouselItem trans3d"><div class="carouselItemInner trans3d">9</div></figure>
+        <figure id="item10" class="carouselItem trans3d"><div class="carouselItemInner trans3d">10</div></figure>
+        <figure id="item11" class="carouselItem trans3d"><div class="carouselItemInner trans3d">11</div></figure>
+        <figure id="item12" class="carouselItem trans3d"><div class="carouselItemInner trans3d">12</div></figure>	 -->
+        </section>
+    </div>
+    <script src="js/sidenavPush-activities.js"></script>
+    <script src="js/activities.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+</body>
+
+</html>
