@@ -1,5 +1,5 @@
 html, body {
-    width: 98vw;
+    width: 100vw;
     height: 100vh;
     margin: 0px;
 }
@@ -16,6 +16,7 @@ body {
     position: relative;
     display: grid;
     grid-template-columns: min-content 1fr;
+    overflow-x: hidden;
 }
 
 #container{
@@ -31,12 +32,12 @@ nav {
     height: 100%;
     white-space: nowrap;
     margin-left: 12vw;
-    margin-top: 10vh;
   }
   nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+  
   }
   /* Only stick if you can fit */
   @media (min-height: 300px) {
@@ -55,7 +56,7 @@ nav {
     background: rgba(236, 196, 76, 1);
   }
   main {
-    width: 100%;
+    width: 100vw;
   }
   section {
     padding: 2rem;

@@ -8,7 +8,7 @@
   var direction = 0;
   var prevDirection = 0;
 
-  var header = document.getElementById('header');
+  var header = document.getElementById('stickynav');
 
   var checkScroll = function () {
 
