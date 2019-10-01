@@ -10,11 +10,7 @@ html, body {
 	 justify-content: center;
 	 align-content: center;
 }
- .hero__content {
-	 position: relative;
-	 align-self: center;
-	 padding: 3rem 0;
-}
+
  .snow {
 	 min-width: 100vw;
 	 min-height: 100vh;
