@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    width: 100%;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    margin-top: 2.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    width: 60%;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container img {
+        width: 90%;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+}
+
+.inner {
+    width: 60%;
+    line-height: 50px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-left: 6%;
+}
+
+.pp {
+    margin-left: 0;
+    line-height: 35px;
+}
+
+.p-p {
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .inner {
+        width: 90%;
+    }
+}
+
+.back-a {
+    position: fixed;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    bottom: 2%;
+    right: 2%;
+    transition: .5s;
+}
+
+.back-a:hover {
+    color: rgba(236, 196, 76, 1);
+    transition: .5s;
+}
+
+@media screen and (max-width: 768px) {
+    .back-a {
+        visibility: hidden;
+    }
+}
+
+

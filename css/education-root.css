@@ -1,3 +1,11 @@
+body {
+	margin: 0;
+}
+
+#wrapper {
+	transition: .8s;
+}
+
 .pagination {
 	position: absolute !important;
 	width: 100%;

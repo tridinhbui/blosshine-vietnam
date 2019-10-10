@@ -22,7 +22,7 @@ body {
 #container{
     width: 100vw;
     height: 100%;
-    transition: margin-left .5s;
+    transition: margin-left .8s;
     background-color: white;
     display: flex;
     flex-direction: row;
