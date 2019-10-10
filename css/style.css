@@ -116,3 +116,8 @@
 	background: #ccc;
 }
 
+@media screen and (max-width: 768px) {
+	#blocked-li {
+	  visibility: hidden;
+	}
+  }

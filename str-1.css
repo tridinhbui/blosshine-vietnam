@@ -72,21 +72,21 @@
   margin: 0px;
 }
 
-#pa-2 {
-  height: 92%;
-  width: 36%;
-  background-color: rgba(236, 196, 76, 1);
-  border-radius: 2em;
-  padding: 2.5%;
-  font-family: 'Chilanka', cursive;
-  font-size: 1.25rem;
-  overflow: auto;
-  margin: 0px;
-  display: flex;
-  justify-content: center;
+@media screen and (max-width: 768px) {
+  #pa-1 {
+    height: 95%;
+    width: 95%;
+    background-color: rgba(236, 196, 76, 1);
+    border-radius: 0.5em;
+    padding: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    overflow: auto;
+    margin: 0px;
+  }
 }
 
-#myNav {
+#myNav, #myNav1, #myNav2, #myNav3, #myNav4, #myNav5, #myNav6, #myNav7, #myNav8, #myNav9, #myNav10, #myNav11, #myNav11{
   display: flex;
   justify-content: space-around;
 }

@@ -8,46 +8,24 @@ html, body {
     background-color: black;
 }
 
+@media screen and (max-width: 768px) {
+  html, body {
+    width: 100%;
+    height: 136vh;
+    background-color: black;
+  }
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 #container {
-  transition: .5s;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
+  transition: .8s;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  -moz-transition: .8s;
 }
-
-/* _____________________________ */
-
-#go-to-top-btn {
-    display: none; 
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: gray; 
-    color: white; 
-    cursor: pointer;
-    padding: 0px;
-    border-radius: 50%; 
-    font-size: 18px; 
-  }
-  
-#go-to-top-btn:hover {
-    background-color: gray;
-    transition: .5s;
-}
-
-#go-to-top-img {
-    width: 60px;
-    height: 60px;
-}
-
-/* _______________________________________________________________________________ */
 
 
 
@@ -58,6 +36,21 @@ html {
     height: 100vh;
     background-image: url(https://i.pinimg.com/originals/f0/df/fd/f0dffdcf873936786b4ee8b518521a5a.jpg);
     background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #pre-gif {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 768px) {
+  #section05 {
+    visibility: hidden;
+  }
 }
 
 
@@ -162,6 +155,17 @@ section::after {
     background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+  #gif-container {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 790vw;
+    background-size: cover;
+  }
+}
+
 .img-container {
     height: 50vh;
     display: flex;
@@ -183,17 +187,45 @@ section::after {
   width: 100%;
 }
 
-.img-container-3 {
-  height: 50vh;
-  display: flex;
-  flex-direction: row;
+@media screen and (max-width: 768px) {
+  .img-container {
+    height: 255vw;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 
-#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12, #img-13, #img-14, #img-15, #img-16 {
+.img-container-1 {
+  height: 260vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.img-container-2 {
+  height: 260vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+}
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12 {
     height: 50vh;
     width: 25%;
 }
+
+
+@media screen and (max-width: 768px) {
+  #img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12 {
+    height: 60vw;
+    width: 60vw;
+  }
+}
+
 
 #img-1 {
   background-image: url(https://i.imgur.com/kTX3Voo.png);
@@ -202,6 +234,16 @@ section::after {
   transition: 1s;
   border-radius: 3em;
   margin-left: 1.55%;
+}
+
+@media screen and (max-width: 768px) {
+  #img-1 {
+    background-image: url(https://i.imgur.com/kTX3Voo.png);
+    background-size: cover;
+    opacity: 1;
+    transition: 1s;
+    margin-left: 1.55%;
+  }
 }
 
 #img-1:hover {
@@ -219,6 +261,16 @@ section::after {
   border-radius: 3em;
 }
 
+@media screen and (max-width: 768px) {
+  #img-2 {
+    background-image: url(https://i.imgur.com/0xb4HNv.jpg);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
+}
+
 #img-2:hover {
   opacity: 1;
   transition: 1s;
@@ -232,6 +284,16 @@ section::after {
   opacity: 0;
   transition: 1s;
   border-radius: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  #img-3 {
+    background-image: url(https://i.imgur.com/jyvPnKV.png);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
 }
 
 #img-3:hover {
@@ -250,6 +312,16 @@ section::after {
   border-radius: 3em;
 }
 
+@media screen and (max-width: 768px) {
+  #img-4 {
+    background-image: url(https://i.imgur.com/Nwdiq0T.png);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
+}
+
 #img-4:hover {
   opacity: 1;
   transition: 1s;
@@ -264,6 +336,17 @@ section::after {
   transition: 1s;
   border-radius: 3em;
   margin-left: 1.55%;
+}
+
+@media screen and (max-width: 768px) {
+  #img-5 {
+    background-image: url(https://i.imgur.com/vSHLrLm.png);
+    background-size: cover;
+    opacity: 1;
+    transition: 1s;
+    margin-left: 1.55%;
+    margin-top: 5vw;
+  }
 }
 
 #img-5:hover {
@@ -281,6 +364,16 @@ section::after {
   border-radius: 3em;
 }
 
+@media screen and (max-width: 768px) {
+  #img-6 {
+    background-image: url(https://i.imgur.com/Ihwrjdu.png);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
+}
+
 #img-6:hover {
   opacity: 1;
   transition: 1s;
@@ -296,11 +389,147 @@ section::after {
   border-radius: 3em;
 }
 
+@media screen and (max-width: 768px) {
+  #img-7 {
+    background-image: url(https://i.imgur.com/QZM4Fju.png);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
+}
+
 #img-7:hover {
   opacity: 1;
   transition: 1s;
   cursor: pointer;
 }
+
+#img-8 {
+  background-image: url(https://i.imgur.com/6vQmwl0.png);
+  background-size: cover;
+  opacity: 0;
+  transition: 1s;
+  border-radius: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  #img-8 {
+    background-image: url(https://i.imgur.com/6vQmwl0.png);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
+}
+
+#img-8:hover {
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+#img-9 {
+  background-image: url(https://i.imgur.com/mdXjFCV.png);
+  background-size: cover;
+  opacity: 0;
+  transition: 1s;
+  border-radius: 3em;
+  margin-left: 1.55%;
+}
+
+@media screen and (max-width: 768px) {
+  #img-9 {
+    background-image: url(https://i.imgur.com/mdXjFCV.png);
+    background-size: cover;
+    opacity: 1;
+    transition: 1s;
+    margin-top: 5vw;
+  }
+}
+
+#img-9:hover {
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+#img-10 {
+  background-image: url(https://i.imgur.com/x2nr0z7.png);
+  background-size: cover;
+  opacity: 0;
+  transition: 1s;
+  border-radius: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  #img-10 {
+    background-image: url(https://i.imgur.com/x2nr0z7.png);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
+}
+
+#img-10:hover {
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+#img-11 {
+  background-image: url(https://i.imgur.com/H99Lmqp.png);
+  background-size: cover;
+  opacity: 0;
+  transition: 1s;
+  border-radius: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  #img-11 {
+    background-image: url(https://i.imgur.com/H99Lmqp.png);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
+}
+
+#img-11:hover {
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+#img-12 {
+  background-image: url(https://i.imgur.com/ezzH6jW.jpg);
+  background-size: cover;
+  opacity: 0;
+  transition: 1s;
+  border-radius: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  #img-12 {
+    background-image: url(https://i.imgur.com/ezzH6jW.jpg);
+    background-size: cover;
+    opacity: 1;
+    margin-top: 5vw;
+    transition: 1s;
+  }
+}
+
+#img-12:hover {
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+}
+
 
 
 /* ______________________________________________________________________________________________________ */
@@ -445,4 +674,39 @@ color: #fff;
 -o-transition: all 0.8s;
 -ms-transition: all 0.8s;
   transition: all 0.8s;
+}
+
+#stories-text {
+  width: 45vw;
+  color: white;
+  margin: 22vh 40vw 0 10vw;
+  position: absolute;
+  line-height: 2em;
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 768px) {
+  #stories-text {
+    margin: 16vh 10vw 0 0;
+    width: 90vw;
+    color: white;
+    position: absolute;
+    line-height: 1.95em;
+  }
+}
+
+#b {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  #b {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #blocked-li {
+    visibility: hidden;
+  }
 }

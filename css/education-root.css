@@ -1537,3 +1537,9 @@ body[data-route-option="prev-section"] .c-header-home_controls, body[data-route-
 		width: 15.625rem;
    }
 }
+
+@media screen and (max-width: 768px) {
+	#blocked-li {
+	  visibility: hidden;
+	}
+  }

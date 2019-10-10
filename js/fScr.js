@@ -78,3 +78,55 @@ function openNav6() {
 function closeNav6() {
   document.getElementById("myNav6").style.height = "0vh";
 }
+
+/* Open */
+function openNav7() {
+  document.getElementById("myNav7").style.height = "100vh";
+}
+
+/* Close */
+function closeNav7() {
+  document.getElementById("myNav7").style.height = "0vh";
+}
+
+
+/* Open */
+function openNav8() {
+  document.getElementById("myNav8").style.height = "100vh";
+}
+
+/* Close */
+function closeNav8() {
+  document.getElementById("myNav8").style.height = "0vh";
+}
+
+/* Open */
+function openNav9() {
+  document.getElementById("myNav9").style.height = "100vh";
+}
+
+/* Close */
+function closeNav9() {
+  document.getElementById("myNav9").style.height = "0vh";
+}
+
+/* Open */
+function openNav10() {
+  document.getElementById("myNav10").style.height = "100vh";
+}
+
+/* Close */
+function closeNav10() {
+  document.getElementById("myNav10").style.height = "0vh";
+}
+
+
+/* Open */
+function openNav11() {
+  document.getElementById("myNav11").style.height = "100vh";
+}
+
+/* Close */
+function closeNav11() {
+  document.getElementById("myNav11").style.height = "0vh";
+}
