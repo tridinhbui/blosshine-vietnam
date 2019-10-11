@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />
-    <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
-    <meta name="author" content="Codrops" />
+    <meta name="description" content="Blosshine Project" />
+    <meta name="keywords" content="Blosshine, abuse, child abuse" />
     <link rel="shortcut icon" href="../favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -59,7 +58,7 @@
 
     <div id="mySidenav" class="sidenav">
         <ul class="snip1226">
-            <li class="current"><a href="index1.html" data-hover="Home">Home</a></li>
+            <li class="current"><a href="index.html" data-hover="Home">Home</a></li>
             <li><a href="mission.html" data-hover="About us">About us</a></li>
             <li><a href="education-root.html" data-hover="Education">Education</a></li>
             <li><a href="stories.html" data-hover="Stories">Stories</a></li>
@@ -183,73 +182,10 @@
 
 
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/home-jquery.ba-cond.min.js"></script>
     <script type="text/javascript" src="js/home-jquery.slitslider.js"></script>
-    <script type="text/javascript">
-        $(function () {
-
-            var Page = (function () {
-                var $navArrows = $('#nav-arrows'),
-                    $nav = $('#nav-dots > span'),
-                    slitslider = $('#slider').slitslider({
-                        onBeforeChange: function (slide, pos) {
-                            $nav.removeClass('nav-dot-current');
-                            $nav.eq(pos).addClass('nav-dot-current');
-                        }
-                    }),
-                    init = function () {
-                        initEvents();
-
-                    },
-                    initEvents = function () {
-                        // add navigation events
-                        $navArrows.children(':last').on('click', function () {
-                            slitslider.next();
-                            return false;
-                        });
-                        $navArrows.children(':first').on('click', function () {
-
-                            slitslider.previous();
-                            return false;
-                        });
-                        $nav.each(function (i) {
-
-                            $(this).on('click', function (event) {
-
-                                var $dot = $(this);
-
-                                if (!slitslider.isActive()) {
-                                    $nav.removeClass('nav-dot-current');
-                                    $dot.addClass('nav-dot-current');
-
-                                }
-
-                                slitslider.jump(i + 1);
-                                return false;
-
-                            });
-
-                        });
-                    };
-                return { init: init };
-            })();
-            Page.init();
-            /**
-             * Notes: 
-             * 
-             * example how to add items:
-             */
-            /*
-        	
-            var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
-        	
-            // call the plugin's add method
-            ss.add($items);
-            */
-
-        });
-    </script>
+    <script src="js/index.js"></script>
 
 
     <script src="js/sidenavPush.js"></script>
