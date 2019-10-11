@@ -988,6 +988,12 @@ ul.social-network li {
     transition: .6s;
 }
 
+@media screen and (max-width: 768px) {
+    #explore-4 {
+        visibility: hidden;
+    }
+}
+
 #explore-5 {
     color: white;
     transition: .6s;
