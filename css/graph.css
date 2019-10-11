@@ -69,3 +69,8 @@ nav {
     margin-right: auto;
     width: 50%;
   }
+
+  p {
+    font-family: 'Hepta Slab', serif;
+    line-height: 35px;
+  }
