@@ -294,7 +294,22 @@
 
 @media screen and (max-width: 360px) {
 	.st-panel p {
-		font-size: 15px;
+		font-size: 12px;
+		line-height: 35px;
+		color: #8b8b8b;
+		z-index: 2;
+		padding: 0;
+		width: 50%;
+		left: 25%;
+		top: 50%;
+		margin: 10px 0 0 0;
+		backface-visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.st-panel p {
+		font-size: 12px;
 		line-height: 35px;
 		color: #8b8b8b;
 		z-index: 2;
