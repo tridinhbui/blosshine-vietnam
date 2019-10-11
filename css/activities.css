@@ -279,11 +279,11 @@ p {
 @media screen and (max-width: 768px) {
 	.mfont {
 		margin-bottom: 5vh;
-		font-size: 1em;
+		font-size: 1.15em;
 	}
 
 	.font {
-		font-size: 1em;
+		font-size: 1.15em;
 	}
 }
 
