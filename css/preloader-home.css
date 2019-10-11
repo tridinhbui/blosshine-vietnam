@@ -1,7 +1,6 @@
 .sk-circle {
     position: absolute;
     top: 48%;
-    left: 48%;
     width: 40px;
     height: 40px;
     position: relative;
@@ -10,9 +9,9 @@
     width: 200%;
     height: 200%;
     position: absolute;
-    left: -35%;
     top: 60vh;
   }
+  
   .sk-circle .sk-child:before {
     content: '';
     display: block;
@@ -24,6 +23,59 @@
     -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
             animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
   }
+
+  #spinner-img {
+    background-size: cover;
+            width: 260px;
+            height: 260px;
+            border: 2px dashed #ddd;
+            border: 2px dashed rgba(150,150,150,0.4);
+            border-radius: 50%;
+            position: absolute;
+            bottom: 57%;
+            margin: 0 0 0 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .sk-circle {
+      position: absolute;
+      top: 48%;
+      width: 40px;
+      height: 40px;
+      position: relative;
+    }
+    .sk-circle .sk-child {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 60vh;
+    }
+
+    .sk-circle .sk-child:before {
+      content: '';
+      display: block;
+      margin: 0 auto;
+      width: 15%;
+      height: 15%;
+      background-color: rgba(236, 196, 76, 1);
+      border-radius: 100%;
+      -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+              animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+    }
+
+    #spinner-img {
+      background-size: cover;
+            width: 130px;
+            height: 130px;
+            border: 2px dashed #ddd;
+            border: 2px dashed rgba(150,150,150,0.4);
+            border-radius: 50%;
+            position: absolute;
+            bottom: 57%;
+            margin: 0 0 0 0;
+    }
+  }
+
   .sk-circle .sk-circle2 {
     -webkit-transform: rotate(30deg);
         -ms-transform: rotate(30deg);
