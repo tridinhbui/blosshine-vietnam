@@ -209,7 +209,7 @@
 	line-height: 50px;
 	margin: -70px 0 0 0;
 	padding: 0;
-	top: 29%;
+	top: 26%;
 	backface-visibility: hidden;
 }
 
@@ -281,7 +281,7 @@
 
 .st-panel p {
 	font-size: 20px;
-	line-height: 28px;
+	line-height: 40px;
 	color: #8b8b8b;
 	z-index: 2;
 	padding: 0;

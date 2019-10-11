@@ -263,14 +263,14 @@
 .feynman span {
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 22px;
 	letter-spacing: 1px;
 	font-weight: normal;
 	margin-left: 10px;
 }
 
 .fc-flip .fc-front h3 {
-	top: 30px;
+	top: 10px;
 	left: 15px;
 }
 
