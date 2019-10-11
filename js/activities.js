@@ -17,6 +17,7 @@ var Expand = (function() {
           stripClose.addClass('strip__close--show');
           stripClose.css('transition', 'all .6s 1s cubic-bezier(0.23, 1, 0.32, 1)');
           expanded = true;
+          document.getElementById('back-btn').style.visibility = "hidden";
         } 
       };
     
@@ -28,6 +29,7 @@ var Expand = (function() {
         stripClose.removeClass('strip__close--show');
         stripClose.css('transition', 'all 0.2s 0s cubic-bezier(0.23, 1, 0.32, 1)')
         expanded = false;
+        document.getElementById('back-btn').style.visibility = "visible";
       }
     }
   

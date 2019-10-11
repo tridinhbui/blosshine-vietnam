@@ -251,4 +251,49 @@ p {
 	margin: 0 0 16px;
 }
 
+#back-btn {
+	position: absolute;
+	z-index: 99;
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: white;
+	top: 2%;
+	left: 2%;
+	transition: .5s;
+}
 
+#back-btn:hover {
+	color: rgba(236, 196, 76, 1);
+	transition: .5s;
+}
+
+.mfont {
+	margin-bottom: 5vh;
+	font-size: 1.25em;
+}
+
+.font {
+	font-size: 1.25em;
+}
+
+@media screen and (max-width: 768px) {
+	.mfont {
+		margin-bottom: 5vh;
+		font-size: 1em;
+	}
+
+	.font {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.mfont {
+		margin-bottom: 4vh;
+		font-size: 0.85em;
+	}
+
+	.font {
+		font-size: 0.85em;
+	}
+}
