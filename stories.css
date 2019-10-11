@@ -151,8 +151,6 @@ section::after {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-image: url(https://media.giphy.com/media/O1A7W9ipgqOpq/giphy.gif);
-    background-size: cover;
 }
 
 @media screen and (max-width: 768px) {
