@@ -1,4 +1,5 @@
-Blosshine Vietnam Website: blosshine.netlify.app
+Blosshine Vietnam Website
+https://blosshine.netlify.app
 
 
 Blosshine Project
