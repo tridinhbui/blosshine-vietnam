@@ -21,4 +21,4 @@ The Blosshine Project also holds an annual charity day event at a yet-to-be-spec
 Contribute
 If you are passionate about helping children and making a difference in the world, the Blosshine Project is a great opportunity to get involved. You can contribute by volunteering, making a donation, or spreading the word about the cause.
 
-This website was built using HTML, CSS, and JavaScript and is a great platform to learn more about the Blosshine Project and its mission. For more information, please visit our website or contact us at [insert contact information here].
+This website was built using HTML, CSS, and JavaScript and is a great platform to learn more about the Blosshine Project and its mission. For more information, please visit our website or contact us at +1 651-235-2682.
